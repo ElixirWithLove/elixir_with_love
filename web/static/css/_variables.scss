@@ -1,0 +1,33 @@
+// Brand Colors
+$brand-primary: #7376C3;
+$brand-secondary: #000;
+$brand-info: #FFF;
+
+$dark-purple: #2D2D44;
+
+// Font
+$font-family-sans-serif: "Lato", Geneva, Tahoma, sans-serif;
+$font-family-serif: "Inconsolata", Courier New, Courier, Mono, monospace;
+$font-family-base: $font-family-serif;
+$font-size-base: 1.10rem;
+$line-height-base: 1.8;
+
+// Headings
+$headings-font-family: $font-family-sans-serif;
+
+// Buttons
+$btn-primary-color: #2D2D44;
+$btn-primary-bg: $brand-info;
+$btn-secondary-color: $brand-info;
+$btn-secondary-bg: $brand-secondary;
+$btn-secondary-border: $brand-info;
+
+// Forms
+$input-bg: $brand-primary;
+$input-color: $brand-secondary;
+
+// Misc
+$enable-rounded: false;
+$body-color: $brand-secondary;
+$jumbotron-bg: $brand-primary;
+$navbar-inverse-color: $brand-secondary;

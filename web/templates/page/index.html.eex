@@ -1,0 +1,35 @@
+<div class="container">
+<div class="row cfp-row justify-content-center">
+  <div class="col-lg-10">
+    <div class="row align-items-center justify-content-center">
+      <div id="cfp" class="col-lg-4">
+        <h3>Call for Proposals</h3>
+      </div>
+      <div class="col-1">
+        <img src="<%= static_path(@conn, "/images/mic.svg") %>" alt="microphone icon">
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <ul>
+          <li>All technical Elixir/OTP talks welcome</li>
+          <li>Talks addressing cultural issues in tech</li>
+          <li>Talks about tech leadership practices that foster excellence and inclusion</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-5 text-center">
+        <!-- <strong>Deadline: October 1st, 2017</strong> -->
+        <a href="https://www.papercall.io/elixirwithlove" target="_blank" class="btn btn-primary btn-block">Submit a Proposal</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="row justify-content-center">
+  <div class="col-lg-4 text-center">
+    &copy; 2017 Elixir with Love &#9829;
+  </div>
+</footer>
+</div>
