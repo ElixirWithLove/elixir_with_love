@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :elixir_with_love, ElixirWithLove.Endpoint,
   http: [port: {:system, "PORT"}],
-  url: [scheme: "https", host: "floating-fjord-87178.herokuapp.com",
+  url: [scheme: "https", host: "elixirwithlove.herokuapp.com",
     port: 443],
   force_ssl: [rewrite_on: [:x_forwarded_proto]],
   cache_static_manifest: "priv/static/manifest.json",
