@@ -3,6 +3,7 @@
 // Brand Colors
 $brand-primary: #7376C3;
 $brand-secondary: #000;
+$light-blue: #7AB5E3;
 $brand-info: #FFF;
 
 $dark-purple: #2D2D44;
@@ -19,8 +20,8 @@ $line-height-base: 1.8;
 $headings-font-family: $font-family-sans-serif;
 
 // Buttons
-$btn-primary-color: #2D2D44;
-$btn-primary-bg: $brand-info;
+$btn-primary-color: white;
+$btn-primary-bg: black;
 $btn-secondary-color: $brand-info;
 $btn-secondary-bg: $brand-secondary;
 $btn-secondary-border: $brand-info;
@@ -31,6 +32,7 @@ $input-color: $brand-secondary;
 $input-color-placeholder: $med-purple;
 
 // Misc
+$enable-rounded: false;
 $body-color: $brand-secondary;
 $jumbotron-bg: $brand-primary;
 $navbar-inverse-color: $brand-secondary;

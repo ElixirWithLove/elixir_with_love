@@ -1,14 +1,14 @@
 $(function(){
 
-  function jumbotronInit() {
-    var jumbotron   = $('.jumbotron'),
+  function rowInit() {
+    var rows   = $('.jumbotron, .cfp-row'),
         winHeight   = $(window).height(),
-        jumbotronHeight  = winHeight;
+        rowHeight  = winHeight;
 
-    jumbotron.css({"min-height": jumbotronHeight+"px"});
+    rows.css({"min-height": rowHeight+"px"});
   };
 
-  jQuery(window).on("resize", jumbotronInit);
-  jQuery(document).on("ready", jumbotronInit);
+  jQuery(window).on("resize", rowInit);
+  jQuery(document).on("ready", rowInit);
 
   });

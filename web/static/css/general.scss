@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-  background-color: $brand-primary;
+  background-color: black;
   margin-bottom: 70px;
 }
 
@@ -10,13 +10,17 @@ body {
   vertical-align: baseline;
 }
 
-h1, h3 {
+h1 {
   text-transform: uppercase;
   font-weight: 900;
 }
 
 h2 {
   font-size: 1em;
+}
+
+h3 {
+  font-weight: 900;
 }
 
 h4 {
@@ -43,8 +47,6 @@ p {
 }
 
 .jumbotron {
-
-  min-height: 100vh;
   padding-top: 12em;
   margin-bottom: 0;
 }
@@ -53,31 +55,54 @@ p {
   margin-top: 2em;
 }
 
+.jumbotron, .cfp-row {
+  min-height: 100vh;
+}
+
 .cfp-row {
-  background-color: #111;
-  padding: 5em;
-  color: white;
-  border-radius: 5px 5px 0 0;
+  font-family: $font-family-sans-serif;
+  background-color: white;
+  padding: 5em 0;
+  color: black;
 
   h3 {
-    border-radius: 5px;
+    font-family: $font-family-serif;
     background-color: $brand-primary;
-    border: 5px solid $brand-primary;
-    color: white;
+    color: black;
     padding: 0.5em;
+    width: 35%;
     display: inline-block;
+    text-align: right;
+
+    @media (max-width:990px) {
+      width: 100%;
+    }
   }
 
   ul {
     margin: 1.5em 0;
   }
+
+  .paper {
+    height: 5em;
+
+    @media (max-width:600px) {
+      display:none;
+    }
+  }
+}
+
+#cfp {
+  background-color: $brand-primary;
+  text-align: right;
+  border: 5px solid black;
+  border-left: 0;
 }
 
 footer {
-  background-color: $dark-purple;
+  background-color: black;
   padding: 2.5em;
   color: white;
-  border-radius: 0 0 5px 5px;
 }
 
 .highlight {
@@ -129,8 +154,6 @@ input {
 .cfp-link {
   color: white;
   font-weight: 900;
-  font-family: $font-family-sans-serif;
-
   font-size: 1.6em;
 }
 
@@ -150,4 +173,8 @@ input {
 
 .form-control {
   background-color: #696cbf;
+}
+
+.navbar-toggler-right {
+  right: 0em;
 }
