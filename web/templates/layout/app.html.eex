@@ -54,14 +54,14 @@
       <ul class="navbar-nav">
         <li class="nav-item nav-email">
           <a class="nav-link" href="mailto:info@elixir-with-love.com" target="_blank">
-            <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-black.svg") %>" alt="Droplet icon">
-            us a line
+            <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-white.svg") %>" alt="Droplet icon">
+            &nbsp; us a line
           </a>
         </li>
         <li class="nav-item nav-twitter">
           <a class="nav-link" target="_blank" href="https://twitter.com/elixir_w_love">
             <img class="twitter-icon" src="<%= static_path(@conn, "/images/iconset/fontawesome-twitter-white.svg") %>" alt="Twitter icon">
-            tweet
+            &nbsp; tweet
           </a>
         </li>
       </ul>
