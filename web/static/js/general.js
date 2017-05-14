@@ -1,7 +1,7 @@
 $(function(){
 
   function rowInit() {
-    var rows   = $('.jumbotron, .cfp-row'),
+    var rows   = $('.landing-jumbo, .cfp-row'),
         winHeight   = $(window).height(),
         rowHeight  = winHeight;
 

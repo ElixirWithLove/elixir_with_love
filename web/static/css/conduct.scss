@@ -1,0 +1,48 @@
+@import "variables";
+
+.conduct-jumbo {
+  padding: 8em 0 3em 0;
+  min-height: 20vh;
+
+  h1 {
+    font-size: 3.5em;
+
+    .sub-logo {
+      font-weight: 400;
+      color: white;
+      font-size: .75em;
+
+      .ewr-logo {
+        height: 1em;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+.conduct-row {
+  padding: 3em 0;
+  background-color: white;
+
+  p, li {
+    font-family: $font-family-sans-serif;
+  }
+
+  strong {
+    font-size: 1.1em;
+    background-color: lighten($brand-tetriary, 20%);
+  }
+
+  h2 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    border-bottom: 5px solid black;
+    padding: 1em 0;
+  }
+
+  h2 + p {
+    border-top: 5px solid $brand-tetriary;
+    padding-top: 1em;
+  }
+}
