@@ -1,7 +1,7 @@
 <div class="jumbotron conduct-jumbo">
   <div class="container">
-    <div class="row justify-content-center no-gutters">
-      <div id="coc" class="col-8 justify-content-left">
+    <div class="row no-gutters  justify-content-center">
+      <div id="coc" class="col-sm-12 col-md-8">
         <h1>
           <div class="sub-logo">
             <img class="ewr-logo" src="<%= static_path(@conn, "/images/light-ewl-logo.png") %>" alt="Elixir with Love Logo">
@@ -13,9 +13,10 @@
     </div>
   </div>
 </div>
+
 <div class="container-fluid">
   <div class="conduct-row row justify-content-center">
-    <div class="col-8">
+    <div class="col-sm-12 col-md-8">
       <%= render("_code_of_conduct.html") %>
       <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
     </div>

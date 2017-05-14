@@ -47,12 +47,15 @@
         <li class="nav-item">
           <a class="nav-link" href="/#cfp">Call for Proposals</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#keynote">Keynote</a>
+        </li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item nav-email">
           <a class="nav-link" href="mailto:info@elixir-with-love.com" target="_blank">
             <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-black.svg") %>" alt="Droplet icon">
-             us a line
+            us a line
           </a>
         </li>
         <li class="nav-item nav-twitter">
@@ -64,16 +67,13 @@
       </ul>
     </div>
   </nav>
-    <main role="main">
-      <%= render @view_module, @view_template, assigns %>
-    </main>
-    <div class="container-fluid">
-      <footer class="row justify-content-center">
-        <div class="col-lg-4 text-center">
-          &copy; 2017 Elixir with Love
-        </div>
-      </footer>
-    </div>
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-  </body>
-  </html>
+  <main role="main">
+    <%= render @view_module, @view_template, assigns %>
+  </main>
+  <footer class="text-center">
+    &copy; 2017 Elixir with Love
+  </footer>
+
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+</body>
+</html>

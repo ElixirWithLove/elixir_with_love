@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-  background-color: $brand-primary;
+  background-color: black;
   margin-bottom: 70px;
 }
 
@@ -79,6 +79,22 @@ h1 {
   }
 }
 
+@media (max-width:600px) {
+  .top-logo {
+    h1 {
+      font-size: 4em;
+    }
+  }
+  .bottom-logo {
+    h1 {
+      small {
+        margin-top: -2em;
+        font-size: 0.65em;
+      }
+    }
+  }
+}
+
 .bottom-logo {
   margin-top: -2.25rem;
 }
@@ -94,7 +110,6 @@ p {
   margin-bottom: 0;
 
   .btn:hover {
-    background-color: darken($brand-primary, 45%);
     cursor: pointer;
   }
 
@@ -109,9 +124,11 @@ p {
 }
 
 .cfp-row {
+
   font-family: $font-family-sans-serif;
+  font-size: 0.9em;
   background-color: white;
-  padding: 4em 0;
+  padding: 6em 0;
   color: black;
 
   h3 {
@@ -119,27 +136,26 @@ p {
     color: black;
     padding-right: 0.5em;
     display: inline-block;
-
-    @media (max-width:990px) {
-      width: 100%;
-    }
   }
 
   ul {
-    margin: 1.5em 0;
+    margin: 1.5em 0 2em 0;
   }
 
   .paper {
-    height: 5em;
+    height: 3em;
+  }
+}
 
-    @media (max-width:600px) {
-      display:none;
-    }
+.cfp-link {
+  @media (max-width:600px) {
+    display:none;
   }
 }
 
 footer {
-  background-color: $brand-primary;
+  margin: 0;
+  background-color: black;
   padding: 2.5em;
   color: white;
   font-size: .8em;
@@ -151,10 +167,11 @@ footer {
 }
 
 .btn {
+  background-color: darken($brand-primary, 20%);
   font-family: $font-family-sans-serif;
   border-width: 0px;
-  font-weight: 900;
   padding: 1em;
+  border-bottom: 3px solid black;
 }
 
 .btn:hover {

@@ -1,10 +1,13 @@
 <div class="jumbotron landing-jumbo">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-lg-5">
+      <div class="col-lg-5">
         <div class="row align-items-center no-gutters top-logo">
           <div class="col">
-            <h1><img class="ewr-logo" src="<%= static_path(@conn, "/images/light-ewl-logo.png") %>" alt="Elixir with Love Logo">Elixir</h1>
+            <h1>
+              <img class="ewr-logo" src="<%= static_path(@conn, "/images/light-ewl-logo.png") %>" alt="Elixir with Love Logo">
+              Elixir
+            </h1>
           </div>
         </div>
         <div class="row bottom-logo">
@@ -45,9 +48,9 @@
       </div>
     </div> <!-- /container -->
   </div>
-  <div class="container-fluid">
-    <div class="row">
-      <%= render(ElixirWithLove.PageView, "_cfp.html", conn: @conn) %>
-      <%= render(ElixirWithLove.PageView, "_keynote.html", conn: @conn) %>
-    </div>
-  </div>
+</div>
+
+<div class="container-fluid">
+  <%= render(ElixirWithLove.PageView, "_cfp.html", conn: @conn) %>
+  <%= render(ElixirWithLove.PageView, "_keynote.html", conn: @conn) %>
+</div>

@@ -1,13 +1,13 @@
 <div id="cfp" class="row cfp-row">
-  <div class="col-lg-12">
+  <div class="col-12">
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-sm-12 text-center">
         <h3>Call for Proposals</h3>
-        <img class="paper" src="<%= static_path(@conn, "/images/paper.png") %>" alt="paper bulletin icon">
+        <img class="paper align-self-center" src="<%= static_path(@conn, "/images/paper.png") %>" alt="paper bulletin icon">
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-8">
+      <div class="col-sm-12 col-md-8">
         <br/>
         <p><strong>Elixir with Love is a community-building conference!</strong>
           We want talks that introduce the best parts of Elixir to developers. We want to
@@ -19,25 +19,24 @@
           <p>Excited about the mission? Join the cause and submit a proposal.
             We encourage all levels of experience to apply and can't wait to
             hear and feature new ideas.</p>
-            <p>What we're looking for:</p>
-            <ul>
-              <li>All technical Elixir/OTP talks welcome</li>
-              <li>Talks addressing cultural issues in tech</li>
-              <li>Talks about tech leadership practices that foster excellence and inclusion</li>
-            </ul>
-          </div>
+          <p>What we're looking for:</p>
+          <ul>
+            <li>All technical Elixir/OTP talks welcome</li>
+            <li>Talks addressing cultural issues in tech</li>
+            <li>Talks about tech leadership practices that foster excellence and inclusion</li>
+          </ul>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-4 text-center">
-            <a href="https://www.papercall.io/elixirwithlove" target="_blank" class="btn btn-primary btn-block">Details &amp; Submission Form</a>
-          </div>
-          <div class="col-lg-4 text-center">
-            <a href="mailto:info@elixir-with-love.com?subject=Speaker Suggestion" target="_blank" class="btn btn-primary btn-block">
-              Suggest a Speaker!
-            </a>
-          </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+          <a href="https://www.papercall.io/elixirwithlove" target="_blank" class="btn btn-primary btn-block">Details &amp; Submission Form</a>
+        </div>
+         &nbsp;
+        <div class="col-md-4 text-center">
+          <a href="mailto:info@elixir-with-love.com?subject=Speaker Suggestion" target="_blank" class="btn btn-primary btn-block">
+            Suggest a Speaker!
+          </a>
         </div>
       </div>
     </div>
   </div>
-</div>
