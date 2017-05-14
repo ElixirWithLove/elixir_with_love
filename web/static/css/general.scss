@@ -1,10 +1,53 @@
 @import "variables";
 
 body {
-  background-color: black;
+  background-color: $brand-primary;
   margin-bottom: 70px;
 }
 
+.navbar {
+  margin: 1em 2.5em 0 2.5em;
+  transform: skew(-15deg);
+  border-width: 0;
+
+  a.nav-link {
+    transform: skew(15deg);
+  }
+}
+
+.navbar-inverse .navbar-nav {
+  font-style: italic;
+
+  .nav-email {
+    background-color: white;
+    padding: 0 2.5em;
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: lighten($brand-primary, 20%);
+    }
+
+    a.nav-link {
+      color: black;
+    }
+  }
+  .nav-twitter {
+    background-color: black;
+    padding: 0 2.5em;
+
+    -webkit-transition: background-color 0.3s, color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+      background-color: darken($brand-primary, 30%);
+    }
+
+    a.nav-link {
+      color: white;
+    }
+  }
+}
 .ewr-logo {
   height: 4.2rem;
   vertical-align: baseline;
@@ -49,30 +92,33 @@ p {
 .jumbotron {
   padding-top: 12em;
   margin-bottom: 0;
+
+  .btn:hover {
+    background-color: darken($brand-primary, 45%);
+    cursor: pointer;
+  }
+
 }
 
 .jumbotron-details {
   margin-top: 2em;
 }
 
-.landing-jumbo, .cfp-row {
+.landing-jumbo {
   min-height: 100vh;
 }
 
 .cfp-row {
   font-family: $font-family-sans-serif;
   background-color: white;
-  padding: 5em 0;
+  padding: 4em 0;
   color: black;
 
   h3 {
     font-family: $font-family-serif;
-    background-color: $brand-primary;
     color: black;
-    padding: 0.5em;
-    width: 35%;
+    padding-right: 0.5em;
     display: inline-block;
-    text-align: right;
 
     @media (max-width:990px) {
       width: 100%;
@@ -90,23 +136,13 @@ p {
       display:none;
     }
   }
-
-  .btn {
-    font-family: $font-family-serif;
-  }
-}
-
-#cfp {
-  background-color: $brand-primary;
-  text-align: right;
-  border: 5px solid black;
-  border-left: 0;
 }
 
 footer {
-  background-color: black;
+  background-color: $brand-primary;
   padding: 2.5em;
   color: white;
+  font-size: .8em;
 }
 
 .highlight {
@@ -118,22 +154,21 @@ footer {
   font-family: $font-family-sans-serif;
   border-width: 0px;
   font-weight: 900;
-  border: 4px solid black;
+  padding: 1em;
 }
 
 .btn:hover {
   background-color: $brand-primary;
-  border: 4px solid black;
 }
 
 .navbar {
   font-family: $font-family-sans-serif;
-  background-color: $brand-primary;
-  padding: 0 8px;
+  background-color: black;
+  padding: 0 1em;
 
   .navbar-brand {
     font-weight: bold;
-    color: black;
+    color: white;
   }
 }
 
@@ -187,4 +222,16 @@ input {
 
 .navbar-toggler-right {
   right: 0em;
+}
+
+.twitter-icon {
+  width: 20px;
+}
+
+.droplet-icon {
+  width: 8px;
+}
+
+.heart-icon {
+  width: 30px;
 }

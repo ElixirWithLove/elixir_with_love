@@ -24,6 +24,7 @@
 </script>
 <title>Elixir with Love</title>
 <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 <link rel="apple-touch-icon" sizes="180x180" href="<%= static_path(@conn, "/images/favicons/apple-touch-icon.png") %>">
 <link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-32x32.png") %>" sizes="32x32">
 <link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-16x16.png") %>" sizes="16x16">
@@ -37,18 +38,26 @@
     </button>
     <a class="navbar-brand" href="/">EWL</a>
     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <%= link("Code of Conduct", to: "/conduct", class: "nav-link") %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#cfp">Call for Proposals</a>
+        </li>
+      </ul>
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="https://twitter.com/elixir_w_love">Twitter</a>
+        <li class="nav-item nav-email">
+          <a class="nav-link" href="mailto:info@elixir-with-love.com" target="_blank">
+            <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-black.svg") %>" alt="Droplet icon">
+             us a line
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#cfp">CFP</a>
-        </li>
-        <li class="nav-item">
-          <%= link("Conduct", to: "/conduct", class: "nav-link") %>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:info@elixir-with-love.com">Contact</a>
+        <li class="nav-item nav-twitter">
+          <a class="nav-link" target="_blank" href="https://twitter.com/elixir_w_love">
+            <img class="twitter-icon" src="<%= static_path(@conn, "/images/iconset/fontawesome-twitter-white.svg") %>" alt="Twitter icon">
+            tweet
+          </a>
         </li>
       </ul>
     </div>
@@ -56,11 +65,13 @@
     <main role="main">
       <%= render @view_module, @view_template, assigns %>
     </main>
-    <footer class="row justify-content-center">
-      <div class="col-lg-4 text-center">
-        &copy; 2017 Elixir with Love ❤
-      </div>
-    </footer>
+    <div class="container-fluid">
+      <footer class="row justify-content-center">
+        <div class="col-lg-4 text-center">
+          &copy; 2017 Elixir with Love
+        </div>
+      </footer>
+    </div>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
   </html>
