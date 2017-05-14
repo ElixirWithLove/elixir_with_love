@@ -22,6 +22,8 @@
   analytics.page();
 }}();
 </script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <title>Elixir with Love</title>
 <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">

@@ -13,6 +13,8 @@
 // to also remove its path from "config.paths.watched".
 import "phoenix_html"
 import "./general"
+import "./tilter"
+import "./tilt-settings"
 
 // Import local files
 //

@@ -46,5 +46,8 @@
     </div> <!-- /container -->
   </div>
   <div class="container-fluid">
-    <%= render(ElixirWithLove.PageView, "_cfp.html", conn: @conn) %>
+    <div class="row">
+      <%= render(ElixirWithLove.PageView, "_cfp.html", conn: @conn) %>
+      <%= render(ElixirWithLove.PageView, "_keynote.html", conn: @conn) %>
+    </div>
   </div>
