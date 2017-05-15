@@ -1,4 +1,4 @@
-**Elixir with Love has one goal: to foster an inclusive and educational Elixir community expanding far and wide to the most diverse possible participants.**  We are dedicated in no uncertain terms to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).
+**Elixir with Love has one goal: to foster an inclusive and educational Elixir community expanding far and wide to a diverse group of participants.**  We are dedicated in no uncertain terms to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, mental and physical health, and religion (or lack thereof).
 
 This code of conduct is therefore much more than a obligatory safety net; it is a foundation for the community we hope to set forward. It outlines our expectations for all those who participate in this community, as well as the consequences for unacceptable behavior.
 
@@ -53,11 +53,11 @@ If a community member engages in unacceptable behavior, the community organizers
 
 ## 6. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please contact a [conference organizer](http://www.elixir-with-love.com/organizers) as soon as possible and/or email us at [help@elixir-with-love.com](mailto:help@elixir-with-love.com).
+If you are subject to or witness unacceptable behavior, or have any other concerns, please contact a [conference organizer](http://www.elixir-with-love.com/about) as soon as possible and/or email us at [help@elixir-with-love.com](mailto:help@elixir-with-love.com).
 
 Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
 
-Visit our Reporting Guidelines page for more information.
+Visit our [Reporting Guidelines](https://github.com/ElixirWithLove/policies/blob/master/reporting_guidelines.md) for more information.
 
 ## 7. Addressing Grievances
 
@@ -71,7 +71,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact Information
 
-Reach us at [help@elixir-with-love.com](mailto:help@elixir-with-love.com) and/or reach out to one of our [conference organizers](http://www.elixir-with-love.com/organizers).
+Reach us at [help@elixir-with-love.com](mailto:help@elixir-with-love.com) and/or reach out to one of our [conference organizers](http://www.elixir-with-love.com/about).
 
 ## 10. License and Attribution
 

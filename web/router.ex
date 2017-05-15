@@ -18,6 +18,7 @@ defmodule ElixirWithLove.Router do
 
     get "/", PageController, :index
     get "/conduct", PageController, :conduct
+    get "/about", PageController, :about
   end
 
   # Other scopes may use custom stacks.

@@ -35,6 +35,7 @@ h2 {
 }
 
 h3 {
+  text-transform: uppercase;
   font-weight: 900;
 }
 
@@ -227,4 +228,18 @@ input {
 
 .heart-icon {
   width: 30px;
+}
+
+.about-row {
+  background-color: $brand-primary;
+  padding: 8em 0 6em 0;
+  a {
+    color: white;
+  }
+}
+
+.cfp-row, .keynote-row {
+  h3 {
+    font-size: 3em;
+  }
 }
