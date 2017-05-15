@@ -9,7 +9,7 @@
 
     .sub-logo {
       font-weight: 400;
-      color: white;
+      color: $brand-info;
       font-size: .75em;
 
       .ewr-logo {
@@ -22,7 +22,7 @@
 
 .conduct-row {
   padding: 3em 2.8em;
-  background-color: white;
+  background-color: $brand-info;
 
   p, li {
     font-family: $font-family-sans-serif;
@@ -37,7 +37,7 @@
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 0;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid $brand-secondary;
     padding: 1em 0;
   }
 

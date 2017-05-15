@@ -3,7 +3,7 @@
 .keynote-row {
 	padding: 6em 0;
 	background-color: darken($brand-primary, 40%);
-	color: white;
+	color: $brand-info;
 
 	h3 {
 		font-family: $font-family-serif;
@@ -23,6 +23,7 @@
 	}
 
 	.keynote-abstract {
+		font-family: $font-family-serif;
 		background-color: darken($brand-primary, 25%);
 		padding: 1.5em;
 		box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
@@ -68,14 +69,16 @@
 		position: absolute;
 		margin-top: -10%;
 		width: 100%;
-		color: white;
+		color: $brand-info;
 
 		h3 {
 			font-size: 1.3em;
 			margin-bottom: 0.5em;
+			text-transform: capitalize;
 		}
 
 		h3, p {
+			font-family: $font-family-serif;
 			padding: 0 1em;
 			background-color: $brand-primary;
 			display: inline-block;

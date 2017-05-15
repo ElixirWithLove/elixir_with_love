@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-  background-color: black;
+  background-color: $brand-secondary;
   margin-bottom: 70px;
 }
 
@@ -35,12 +35,13 @@ h2 {
 }
 
 h3 {
+  font-family: $font-family-sans-serif;
   text-transform: uppercase;
   font-weight: 900;
 }
 
 h4 {
-  color: white;
+  color: $brand-info;
 }
 
 h1 {
@@ -48,7 +49,7 @@ h1 {
 
   small {
     font-size: 3.95rem;
-    color: white;
+    color: $brand-info;
   }
 }
 
@@ -74,7 +75,7 @@ h1 {
 
 p {
   strong {
-    color: black;
+    color: $brand-secondary;
   }
 }
 
@@ -102,15 +103,18 @@ p {
 }
 
 .cfp-row {
+  background: -webkit-radial-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* Standard syntax */
   font-family: $font-family-sans-serif;
   font-size: 0.9em;
-  background-color: white;
+  background-color: $brand-info;
   padding: 6em 0;
-  color: black;
+  color: $brand-secondary;
 
   h3 {
-    font-family: $font-family-serif;
-    color: black;
+    color: $brand-secondary;
     padding-right: 0.5em;
     display: inline-block;
   }
@@ -120,7 +124,7 @@ p {
   }
 
   .paper {
-    height: 3em;
+    height: 1em;
   }
 }
 
@@ -132,9 +136,8 @@ p {
 
 footer {
   margin: 0;
-  background-color: black;
   padding: 2.5em;
-  color: white;
+  color: $brand-info;
   font-size: .8em;
 }
 
@@ -145,10 +148,10 @@ footer {
 
 .btn-primary {
   background-color: darken($brand-primary, 20%);
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-serif;
   border-width: 0px;
   padding: 1em;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid $brand-secondary;
 }
 
 .btn:hover {
@@ -157,12 +160,12 @@ footer {
 
 .navbar {
   font-family: $font-family-sans-serif;
-  background-color: black;
+  background-color: $brand-secondary;
   padding: 0 1em;
 
   .navbar-brand {
     font-weight: bold;
-    color: white;
+    color: $brand-info;
   }
 }
 
@@ -186,26 +189,26 @@ input {
 
 .form-control {
   border: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid $brand-secondary;
   margin-right: 1em;
 }
 
 .cfp-link {
-  color: white;
+  color: $brand-info;
   font-weight: 900;
   font-size: 1.6em;
 }
 
 .cfp-link:hover {
-  color: white;
+  color: $brand-info;
 }
 
 .inline-logo-text {
   font-family: $font-family-sans-serif;
   text-transform: uppercase;
   padding: 0.3em 0.3em 0.3em 0;
-  color: black;
-  background-color: white;
+  color: $brand-secondary;
+  background-color: $brand-info;
   padding: 0.3em;
   font-weight: 900;
 }
@@ -234,12 +237,13 @@ input {
   background-color: $brand-primary;
   padding: 8em 0 6em 0;
   a {
-    color: white;
+    color: $brand-info;
   }
 }
 
 .cfp-row, .keynote-row {
   h3 {
     font-size: 3em;
+    letter-spacing: 1px;
   }
 }

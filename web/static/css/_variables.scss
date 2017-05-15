@@ -1,14 +1,17 @@
 @import "https://fonts.googleapis.com/css?family=Inconsolata:regular,bold|Lato:light,regular,bold,black";
 
 // Brand Colors
-$brand-primary: #7376C3;
-$brand-secondary: #000;
-$brand-tetriary: #63dff5;
-$light-blue: #7AB5E3;
-$brand-info: #FFF;
-
+$black: #050504;
+$white: #eff1f9;
+$purple: #7376C3;
 $dark-purple: #2D2D44;
 $med-purple: #363B72;
+
+$brand-primary: #7376C3;
+$brand-secondary: $black;
+$brand-tetriary: #63dff5;
+$light-blue: #7AB5E3;
+$brand-info: $white;
 
 // Font
 $font-family-sans-serif: "Lato", Geneva, Tahoma, sans-serif;
@@ -21,7 +24,7 @@ $line-height-base: 1.8;
 $headings-font-family: $font-family-sans-serif;
 
 // Buttons
-$btn-primary-color: white;
+$btn-primary-color: $brand-info;
 $btn-secondary-color: $brand-info;
 $btn-secondary-bg: $brand-secondary;
 $btn-secondary-border: $brand-info;
@@ -35,4 +38,4 @@ $input-color-placeholder: $med-purple;
 $enable-rounded: false;
 $body-color: $brand-secondary;
 $jumbotron-bg: $brand-primary;
-$navbar-inverse-color: white;
+$navbar-inverse-color: $brand-info;
