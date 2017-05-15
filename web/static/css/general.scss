@@ -38,6 +38,17 @@ h3 {
   font-family: $font-family-sans-serif;
   text-transform: uppercase;
   font-weight: 900;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  display: inline-block;
+
+  @media (min-width: 768px) and (max-width: 780px) {
+    font-size: 1.8rem;
+  }
+
+  @media (min-width: 781px) and (max-width: 1100px) {
+    font-size: 2.3rem;
+  }
 }
 
 h4 {
@@ -48,7 +59,7 @@ h1 {
   font-size: 5.5rem;
 
   small {
-    font-size: 3.95rem;
+    font-size: 4.2rem;
     color: $brand-info;
   }
 }
@@ -82,13 +93,22 @@ p {
 .jumbotron {
   padding-top: 12em;
   margin-bottom: 0;
+  transition: padding-top 1s ease-in-out;
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  @media (max-width: 990px) {
+    padding-top: 4em;
+  }
 
   .btn-secondary {
+    cursor: pointer;
     border: 0;
   }
 
-  .btn:hover {
-    cursor: pointer;
+  .btn-primary:hover {
     background-color: darken($brand-primary, 30%);
   }
 
@@ -104,13 +124,13 @@ p {
 
 .cfp-row {
   background: -webkit-radial-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Safari 5.1 to 6.0 */
-   background: -o-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Opera 11.1 to 12.0 */
-   background: -moz-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Firefox 3.6 to 15 */
-   background: linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* Standard syntax */
+  background: -o-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* Standard syntax */
   font-family: $font-family-sans-serif;
   font-size: 0.9em;
   background-color: $brand-info;
-  padding: 6em 0;
+  padding: 3em 0;
   color: $brand-secondary;
 
   h3 {
@@ -120,7 +140,7 @@ p {
   }
 
   ul {
-    margin: 1.5em 0 2em 0;
+    margin: 1.5em 0 1em -1.5em;
   }
 
   .paper {
@@ -147,15 +167,21 @@ footer {
 }
 
 .btn-primary {
-  background-color: darken($brand-primary, 20%);
+  border-radius: 3px;
+  background: $brand-primary;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
   font-family: $font-family-serif;
+  font-size: 1em;
+  font-weight: 900;
   border-width: 0px;
-  padding: 1em;
-  border-bottom: 3px solid $brand-secondary;
+  padding: 0.8em;
+  border-bottom: 2px solid darken($dark-purple, 20%);
+  overflow: hidden;
 }
 
 .btn:hover {
-  background-color: $brand-primary;
+  background-color: lighten($brand-primary, 15%);
+  color: $dark-purple;
 }
 
 .navbar {
@@ -241,9 +267,6 @@ input {
   }
 }
 
-.cfp-row, .keynote-row {
-  h3 {
-    font-size: 3em;
-    letter-spacing: 1px;
-  }
+.purple-heart {
+  color: #8F6BA9;
 }

@@ -1,16 +1,9 @@
 @import "variables";
 
 .keynote-row {
-	padding: 6em 0;
+  padding: 3em 0;
 	background-color: darken($brand-primary, 40%);
 	color: $brand-info;
-
-	h3 {
-		font-family: $font-family-serif;
-		font-weight: 900;
-		margin-bottom: 1em;
-		display: inline-block;
-	}
 
 	a {
 		color: lighten($brand-primary, 10%);
@@ -23,7 +16,7 @@
 	}
 
 	.keynote-abstract {
-		font-family: $font-family-serif;
+		font-family: $font-family-sans-serif;
 		background-color: darken($brand-primary, 25%);
 		padding: 1.5em;
 		box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
@@ -33,7 +26,6 @@
 
 .keynote-figure {
 	position: relative;
-	margin-top: 1.5em;
   width: 100%;
   display: block;
 
@@ -44,6 +36,10 @@
 		filter: grayscale(100%);
 		-webkit-transition: filter 1s ease-in-out;
 		transition: filter 1s ease-in-out;
+
+    @media (max-width: 580px) {
+      display: none;
+    }
 	}
 
 	.keynote-shine {
@@ -99,5 +95,12 @@
 }
 
 .keynote-bio {
-	font-size: .9em;
+  p {
+    font-family: $font-family-serif;
+  	font-size: 0.85em;
+  }
+
+  strong {
+    color: white;
+  }
 }

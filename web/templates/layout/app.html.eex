@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="Elixir With Love is a proactive conference about introducing developers to this exciting new language and building a diverse Elixir community.">
   <meta name="author" content="">
   <meta name="theme-color" content="#7376c3">
   <script>
@@ -48,7 +48,7 @@
           <a class="nav-link" href="/#cfp">Call for Proposals</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#keynote">Keynote</a>
+          <a class="nav-link" href="/#keynote">Featured Keynote</a>
         </li>
       </ul>
       <ul class="navbar-nav">
@@ -71,7 +71,7 @@
     <%= render @view_module, @view_template, assigns %>
   </main>
   <footer class="text-center">
-    &copy; 2017 Elixir with Love
+    &copy; 2017 Elixir with Love <span class="purple-heart">❤</span>
   </footer>
 
   <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

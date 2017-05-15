@@ -4,7 +4,8 @@
 $black: #050504;
 $white: #eff1f9;
 $purple: #7376C3;
-$dark-purple: #2D2D44;
+$light-purple: lighten($purple, 10%);
+$dark-purple: darken($purple, 15%);
 $med-purple: #363B72;
 
 $brand-primary: #7376C3;

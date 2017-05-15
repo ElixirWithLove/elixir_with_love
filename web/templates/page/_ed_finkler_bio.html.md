@@ -1,4 +1,4 @@
-Ed Finkler, also known as <a href="https://twitter.com/funkatron" target="_blank">Funkatron</a>,
+**Bio:** Ed Finkler, also known as <a href="https://twitter.com/funkatron" target="_blank">Funkatron</a>,
 started making web sites before browsers had frames. He does front-end
 and server-side work in Python, PHP, and JavaScript. Ed is the founder
 and chairman of <a href="https://osmihelp.org" target="_blank">Open Sourcing Mental Illness</a>,
