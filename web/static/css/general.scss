@@ -1,7 +1,7 @@
 @import "variables";
 
 body {
-  background-color: $brand-secondary;
+  background-color: $black;
   margin-bottom: 70px;
 }
 
@@ -118,19 +118,15 @@ p {
   margin-top: 2em;
 }
 
-.landing-jumbo {
+.landing-jumbo, .cfp-row {
   min-height: 100vh;
 }
 
 .cfp-row {
-  background: -webkit-radial-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(top left, white 35%, $brand-info 65%, darken($brand-info, 8%) 95%); /* Standard syntax */
   font-family: $font-family-sans-serif;
   font-size: 0.9em;
   background-color: $brand-info;
-  padding: 3em 0;
+  padding: 8em 0;
   color: $brand-secondary;
 
   h3 {
@@ -157,7 +153,7 @@ p {
 footer {
   margin: 0;
   padding: 2.5em;
-  color: $brand-info;
+  color: $white;
   font-size: .8em;
 }
 
@@ -204,8 +200,8 @@ input {
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: #000;
-    background: #fff;
+  color: #000;
+  background: #fff;
 }
 
 ::selection {
@@ -259,14 +255,47 @@ input {
   width: 30px;
 }
 
-.about-row {
+.about-page {
+  min-height: 100vh;
   background-color: $brand-primary;
-  padding: 8em 0 6em 0;
+  padding-top: 5em;
+  font-size: 1.3em;
+
+  .about-row {
+    a {
+      color: $black;
+      font-weight: 900;
+    }
+  }
+}
+
+.about-row {
+  padding: 1.5em 0;
+  font-size: 0.8em;
+
+  p, strong {
+    color: white;
+  }
+
+  h3 {
+    color: darken($brand-primary, 30%);
+    font-size: 2em;
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  }
   a {
-    color: $brand-info;
+    color: $brand-primary;
   }
 }
 
 .purple-heart {
-  color: #8F6BA9;
+  color: darken(#8F6BA9, 20%);
 }

@@ -1,0 +1,14 @@
+<div id="about" class="row about-row justify-content-center">
+  <div class="col-sm-1 align-self-center">
+    <h3>About</h3>
+  </div>
+  <div class="col-sm-5">
+    <p>
+      <strong>Elixir with Love</strong> is being organized by<br/>
+      <a href="<%= List.first(@organizers).url %>" target="_blank"><%= List.first(@organizers).name %></a>
+      and
+      <a href="<%= List.last(@organizers).url %>" target="_blank"><%= List.last(@organizers).name %></a>.
+      <a href="info@elixir-with-love.com">Get in touch!</a>
+    </p>
+  </div>
+</div>
