@@ -26,7 +26,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <title>Elixir with Love</title>
 <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 <link rel="apple-touch-icon" sizes="180x180" href="<%= static_path(@conn, "/images/favicons/apple-touch-icon.png") %>">
 <link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-32x32.png") %>" sizes="32x32">
 <link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-16x16.png") %>" sizes="16x16">
@@ -55,13 +54,13 @@
         <li class="nav-item nav-email">
           <a class="nav-link" href="mailto:info@elixir-with-love.com" target="_blank">
             <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-white.svg") %>" alt="Droplet icon">
-            &nbsp; us a line
+            &nbsp;Drop us a line
           </a>
         </li>
         <li class="nav-item nav-twitter">
           <a class="nav-link" target="_blank" href="https://twitter.com/elixir_w_love">
             <img class="twitter-icon" src="<%= static_path(@conn, "/images/iconset/fontawesome-twitter-white.svg") %>" alt="Twitter icon">
-            &nbsp; tweet
+            &nbsp; Twitter
           </a>
         </li>
       </ul>
