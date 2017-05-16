@@ -1,0 +1,3 @@
+<div class="container-fluid about-page">
+  <%= render(ElixirWithLove.PageView, "_about.html", conn: @conn, organizers: @organizers) %>
+</div>

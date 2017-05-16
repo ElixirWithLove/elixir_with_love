@@ -4,85 +4,75 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
+  <meta name="description" content="Elixir With Love is a proactive conference about introducing developers to this exciting new language and building a diverse Elixir community.">
   <meta name="author" content="">
+  <meta name="theme-color" content="#7376c3">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <title>Elixir with Love</title>
-  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  ga('create', 'UA-98689092-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+  analytics.load("8hQr6RR8fNm2dKKZ65mdYtGaEYsMzmBp");
+  analytics.page();
+}}();
+</script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<title>Elixir with Love</title>
+<link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+<link rel="apple-touch-icon" sizes="180x180" href="<%= static_path(@conn, "/images/favicons/apple-touch-icon.png") %>">
+<link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-32x32.png") %>" sizes="32x32">
+<link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-16x16.png") %>" sizes="16x16">
+<link rel="manifest" href="<%= static_path(@conn, "/images/favicons/manifest.json") %>">
+<link rel="mask-icon" href="<%= static_path(@conn, "/images/favicons/safari-pinned-tab.svg") %>" color="#7376c3">
 </head>
-
 <body>
   <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">EWL</a>
+    <a class="navbar-brand" href="/">EWL</a>
     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <%= link("Code of Conduct", to: "/conduct", class: "nav-link") %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#cfp">Call for Proposals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#keynote">Featured Keynote</a>
+        </li>
+      </ul>
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Twitter</a>
+        <li class="nav-item nav-email">
+          <a class="nav-link" href="mailto:info@elixir-with-love.com" target="_blank">
+            <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-white.svg") %>" alt="Droplet icon">
+            &nbsp;Drop us a line
+          </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#cfp">CFP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="mailto:elixirwithlove@gmail.com">Contact</a>
+        <li class="nav-item nav-twitter">
+          <a class="nav-link" target="_blank" href="https://twitter.com/elixir_w_love">
+            <img class="twitter-icon" src="<%= static_path(@conn, "/images/iconset/fontawesome-twitter-white.svg") %>" alt="Twitter icon">
+            &nbsp; Twitter
+          </a>
         </li>
       </ul>
     </div>
   </nav>
-  <div class="jumbotron">
-    <div class="container">
-      <!-- <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-      <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p> -->
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-5">
-          <div class="row align-items-center no-gutters top-logo">
-            <div class="col">
-              <h1><img class="ewr-logo" src="<%= static_path(@conn, "/images/light-ewl-logo.png") %>" alt="Elixir with Love Logo">Elixir</h1>
-            </div>
-          </div>
-          <div class="row bottom-logo">
-            <div class="col">
-              <h1><small>With Love</small></h1>
-            </div>
-          </div>
-          <div class="row jumbotron-details">
-            <div class="col">
-              <h2>An Elixir conference driven by inclusion.</h2>
-              <h3>November 21, 2017</h3>
-              <h4>Providence, RI</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <p><strong>Elixir With Love</strong> is a proactive conference about <strong>introducing developers</strong>
-            to this exciting new language and <strong>building a diverse Elixir community</strong>.</p>
-            <!-- Begin MailChimp Signup Form -->
-            <div id="mc_embed_signup">
-              <form action="//twitter.us15.list-manage.com/subscribe/post?u=cab520ff048112bd7b4f2a9e1&amp;id=13f16ee3b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                  <div class="form-group">
-                    <label for="mce-EMAIL">Join the mailing list:</label>
-                    <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cab520ff048112bd7b4f2a9e1_13f16ee3b6" tabindex="-1" value=""></div>
-                  </div>
-                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary"></div>
-                </div>
-              </form>
-            </div>
+  <main role="main">
+    <%= render @view_module, @view_template, assigns %>
+  </main>
+  <footer class="text-center">
+    &copy; 2017 Elixir with Love <span class="purple-heart">❤</span>
+  </footer>
 
-            <!--End mc_embed_signup-->
-            <br/>
-            <a href="#cfp" class="cfp-link">&raquo; Call for Proposals</a>
-          </div>
-        </div>
-      </div> <!-- /container -->
-    </div>
-    <main role="main">
-      <%= render @view_module, @view_template, assigns %>
-    </main>
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-  </body>
-  </html>
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+</body>
+</html>

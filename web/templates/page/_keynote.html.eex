@@ -1,0 +1,36 @@
+<div id="keynote" class="row keynote-row justify-content-center">
+  <div class="col-sm-12 col-md-3">
+    <div class="row">
+      <div class="col-sm-6 col-md-12">
+        <h3>Featured Keynote</h3>
+        <hr/>
+      </div>
+      <div class="col-sm-3 col-md-8 col-lg-7">
+        <a href="https://twitter.com/funkatron" target="_blank">
+          <figure class="keynote-figure">
+            <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/ed-finkler.jpg") %>" alt="Ed Finkler">
+            <figcaption>
+              <h3>Ed Finkler</h3><br/>
+              <p>@funkatron</p>
+            </figcaption>
+            <div class="keynote-deco keynote-shine rounded-circle"></div>
+            <div class="keynote-deco keynote-overlay rounded-circle"></div>
+          </figure>
+        </a>
+        <br/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-7">
+    <p class="keynote-abstract text-center">
+      There is a crisis in the tech industry. At least 20% of our
+      colleagues, friends, and teammates suffer silently with mental
+      illness, but our work culture does little to help. Based on real data,
+      we'll show the enormous impact of mental illness in our industry, and
+      how we can change – and save – lives.
+    </p>
+    <div class="keynote-bio">
+      <%= render("_ed_finkler_bio.html") %>
+    </div>
+  </div>
+</div>

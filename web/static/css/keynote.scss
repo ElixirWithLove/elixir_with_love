@@ -1,0 +1,106 @@
+@import "variables";
+
+.keynote-row {
+  padding: 3em 0;
+	background-color: darken($brand-primary, 40%);
+	color: $brand-info;
+
+	a {
+		color: lighten($brand-primary, 10%);
+		font-weight: 900;
+	}
+
+	p {
+		font-family: $font-family-sans-serif;
+		font-size: 0.9em;
+	}
+
+	.keynote-abstract {
+		font-family: $font-family-sans-serif;
+		background-color: darken($brand-primary, 25%);
+		padding: 1.5em;
+		box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
+		border-radius: 2px;
+	}
+}
+
+.keynote-figure {
+	position: relative;
+  width: 100%;
+  display: block;
+
+	img {
+		margin: 0;
+    width: 100%;
+    display: block;
+		filter: grayscale(100%);
+		-webkit-transition: filter 1s ease-in-out;
+		transition: filter 1s ease-in-out;
+
+    @media (max-width: 580px) {
+      display: none;
+    }
+	}
+
+	.keynote-shine {
+		background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.75) 50%, transparent 100%);
+		-webkit-transition: background-image 1s ease-in-out;
+		transition: background-image 1s ease-in-out;
+	}
+
+	.keynote-overlay {
+		background-image: linear-gradient(45deg, rgba(189, 112, 208, 0.5) 50%, RGBA(115, 118, 195, 0.5), rgba(162, 118, 218, 0.4));
+		-webkit-transition: background-image 1s ease-in-out;
+		transition: background-image 1s ease-in-out;
+	}
+
+	&:hover {
+		img, .keynote-shine, .keynote-overlay {
+				filter: none;
+				background-image: linear-gradient(45deg, rgba(189, 112, 208, 0.2) 50%, RGBA(115, 118, 195, 0.2), rgba(162, 118, 218, 0.2));
+		}
+	}
+
+	figcaption {
+		position: absolute;
+		margin-top: -10%;
+		width: 100%;
+		color: $brand-info;
+
+		h3 {
+			font-size: 1.3em;
+			margin-bottom: 0.5em;
+			text-transform: capitalize;
+		}
+
+		h3, p {
+			font-family: $font-family-serif;
+			padding: 0 1em;
+			background-color: darken($brand-primary, 5%);
+			display: inline-block;
+		}
+	}
+
+	.keynote-deco {
+		position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+	  overflow: hidden;
+		stroke: #9255ae;
+		stroke-width: 6px;
+		mix-blend-mode: color;
+	}
+}
+
+.keynote-bio {
+  p {
+    font-family: $font-family-serif;
+  	font-size: 0.85em;
+  }
+
+  strong {
+    color: white;
+  }
+}

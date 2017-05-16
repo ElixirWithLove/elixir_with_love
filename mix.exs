@@ -4,7 +4,7 @@ defmodule ElixirWithLove.Mixfile do
   def project do
     [app: :elixir_with_love,
      version: "0.0.1",
-     elixir: "~> 1.2",
+     elixir: "~> 1.4",
      elixirc_paths: elixirc_paths(Mix.env),
      compilers: [:phoenix, :gettext] ++ Mix.compilers,
      build_embedded: Mix.env == :prod,
@@ -17,7 +17,8 @@ defmodule ElixirWithLove.Mixfile do
   # Type `mix help compile.app` for more information.
   def application do
     [mod: {ElixirWithLove, []},
-     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext]]
+     applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger,
+     :gettext, :phoenix_markdown]]
   end
 
   # Specifies which paths to compile per environment.
@@ -33,6 +34,7 @@ defmodule ElixirWithLove.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
-     {:cowboy, "~> 1.0"}]
+     {:cowboy, "~> 1.0"},
+     {:phoenix_markdown, "~> 0.1"}]
   end
 end
