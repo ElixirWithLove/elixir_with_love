@@ -1,7 +1,7 @@
-<div id="cfp" class="row cfp-row justify-content-center align-items-center">
-  <div class="col-sm-12 col-md-6">
+<div id="cfp" class="row cfp-row">
+  <div class="col-sm-12 col-md-5 cfp-left">
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-7">
+      <div class="col-sm-12 col-md-9">
         <h3>
           Call for
           <img class="paper align-self-center" src="<%= static_path(@conn, "/images/paper.png") %>" alt="paper bulletin icon">
@@ -10,31 +10,31 @@
         </h3>
       </div>
     </div>
-    <br/>
-    <p>
-      <strong>Elixir with Love is a community-building conference!</strong>
-      We want talks that introduce the best parts of Elixir to developers. We want to
-      bring healthy workplace practices front and center to the conversation.
-    </p>
-    <p>Most of all, <strong>we want to bring everyone to the table</strong> in forging a strong open-source community for this elegant, powerful,
-      and potentially world-shaping backend language. This means doing everything we possibly can to
-      cultivate a positive, equitable environment for underrepresented groups.</p>
-    <a href="https://www.papercall.io/elixirwithlove" target="_blank" class="btn btn-primary">Details &amp; Form</a>
-  </div>
-  <div class="col-sm-12 col-md-4">
+    <p><strong>Excited about the mission? Join the cause and submit a proposal.</strong>
+      We encourage all levels of experience to apply and can't wait to
+      hear your ideas.</p>
     <p><strong>What we're looking for:</strong></p>
     <ul>
       <li><strong>All technical Elixir/OTP talks welcome</strong></li>
       <li>Talks addressing cultural issues in tech</li>
       <li>Talks about tech leadership practices that foster excellence and inclusion</li>
     </ul>
-    <p><strong>Excited about the mission? Join the cause and submit a proposal.</strong>
-      We encourage all levels of experience to apply and can't wait to
-      hear your ideas.</p>
-    <p><strong>Bells ringing about someone you know?</strong></p>
-    <a href="mailto:info@elixir-with-love.com?subject=Speaker Suggestion" target="_blank" class="btn btn-primary">
-      Suggest a Speaker!
-    </a>
+    <p><strong>Bells ringing about someone you know? Recommend a speaker.</strong></p>
+  <a href="https://www.papercall.io/elixirwithlove" target="_blank" class="btn btn-primary">Details &amp; Form</a>
+  <a href="mailto:info@elixir-with-love.com?subject=Speaker Suggestion" target="_blank" class="btn btn-primary">
+    Suggest a Speaker!
+  </a>
+  </div>
+  <div class="col-sm-12 col-md-7 cfp-right">
+    <h3>Mission</h3>
+    <p>
+      <strong>Elixir with Love is a community-building conference.</strong>
+      We want talks that introduce the best parts of Elixir to developers. We want to
+      bring healthy workplace practices front and center to the conversation.
+    </p>
+    <p>Most of all, <strong>we want to bring everyone to the table</strong> in forging a strong open-source community for this elegant, powerful,
+      and potentially world-shaping backend language. This means doing everything we possibly can to
+      cultivate a positive, equitable environment for underrepresented groups.</p>
   </div>
 
 </div>

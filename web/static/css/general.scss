@@ -118,16 +118,20 @@ p {
   margin-top: 2em;
 }
 
-.landing-jumbo, .cfp-row {
+.landing-jumbo {
   min-height: 100vh;
 }
 
 .cfp-row {
   font-family: $font-family-sans-serif;
   font-size: 0.9em;
-  background-color: $brand-info;
-  padding: 8em 0;
+  background-color: $brand-primary;
   color: $brand-secondary;
+
+  p, ul {
+    font-family: $font-family-serif;
+    font-size: 0.95em;
+  }
 
   h3 {
     color: $brand-secondary;
@@ -164,7 +168,7 @@ footer {
 
 .btn-primary {
   border-radius: 3px;
-  background: $brand-primary;
+  background: darken($brand-primary, 20%);
   box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
   font-family: $font-family-serif;
   font-size: 1em;
@@ -298,4 +302,35 @@ input {
 
 .purple-heart {
   color: darken(#8F6BA9, 20%);
+}
+
+.cfp-right {
+  padding: 1.5em 0;
+  margin-bottom: 5em;
+
+  h3 {
+    background-color: darken($brand-primary, 50%);
+    color: lighten(#8e57b6, 30%);
+    font-size: 2.5em;
+    display: block;
+    padding-left: 0.8em;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    padding: 0 2em;
+  }
+}
+
+.cfp-left {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  padding: 4em 2em;
+  margin-bottom: 5;
+  background-color: $white;
+  color: $black;
+
+  strong {
+    font-weight: 900;
+    padding: 0.25em;
+  }
 }
