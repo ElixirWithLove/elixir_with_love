@@ -4,7 +4,7 @@
   </div>
   <div class="col-sm-5">
     <p>
-      <strong>Elixir with Love</strong> is being organized by<br/>
+      <strong>Elixir with Love</strong> is organized by<br/>
       <a href="<%= List.first(@organizers).url %>" target="_blank"><%= List.first(@organizers).name %></a>
       and
       <a href="<%= List.last(@organizers).url %>" target="_blank"><%= List.last(@organizers).name %></a>.

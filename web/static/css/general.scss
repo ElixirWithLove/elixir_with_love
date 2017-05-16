@@ -290,6 +290,10 @@ input {
     -o-transform: rotate(-90deg);
     /* Internet Explorer */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+    @media (max-width: 780px) {
+      display: none;
+    }
   }
   a {
     color: $brand-primary;
