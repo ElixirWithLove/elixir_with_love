@@ -164,7 +164,7 @@ footer {
 
 .btn-primary {
   border-radius: 3px;
-  background: $brand-primary;
+  background: darken($brand-primary, 10%);
   box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
   font-family: $font-family-serif;
   font-size: 1em;
@@ -199,16 +199,6 @@ input {
   font-family: $font-family-serif;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: #000;
-  background: #fff;
-}
-
-::selection {
-  color: #000;
-  background: #fff;
-}
-
 .form-control {
   border: 0;
   border-bottom: 2px solid $brand-secondary;
@@ -236,7 +226,7 @@ input {
 }
 
 .form-control {
-  background-color: #696cbf;
+  background-color: lighten(#696cbf, 2%);
 }
 
 .navbar-toggler-right {
@@ -278,7 +268,7 @@ input {
   }
 
   h3 {
-    color: darken($brand-primary, 30%);
+    color: darken($brand-primary, 10%);
     font-size: 2em;
     /* Safari */
     -webkit-transform: rotate(-90deg);
@@ -301,5 +291,5 @@ input {
 }
 
 .purple-heart {
-  color: darken(#8F6BA9, 20%);
+  color: #8F6BA9;
 }
