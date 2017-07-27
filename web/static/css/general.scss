@@ -3,6 +3,7 @@
 body {
   background-color: $black;
   margin-bottom: 70px;
+  font-size: 1.1em;
 }
 
 .navbar {
@@ -118,7 +119,7 @@ p {
   margin-top: 2em;
 }
 
-.landing-jumbo, .cfp-row {
+.landing-jumbo, .cfp-row, .registration-row {
   min-height: 100vh;
 }
 
@@ -126,7 +127,7 @@ p {
   font-family: $font-family-sans-serif;
   font-size: 0.9em;
   background-color: $brand-info;
-  padding: 8em 0;
+  padding: 6em 0;
   color: $brand-secondary;
 
   h3 {
@@ -292,4 +293,81 @@ input {
 
 .purple-heart {
   color: #8F6BA9;
+}
+
+#registration {
+  padding: 6em 0;
+  background-color: #20214A;
+  font-family: $font-family-sans-serif;
+  font-size: 0.95em;
+  color: white;
+
+  a {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  .row {
+    padding-bottom: 2em;
+  }
+
+  .lead {
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+  }
+
+  strong {
+    color: white;
+    font-weight: 900;
+  }
+
+  a.btn {
+    font-family: $font-family-sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    border: none;
+    color: white;
+    text-decoration: none;
+
+    &:hover, &:active, &:focus {
+      color: white;
+    }
+  }
+
+  .btn-primary {
+    background-color: #3946af;
+
+    &:hover, &:active, &:focus {
+      background-color: #2c41e8;
+    }
+  }
+
+  .btn-secondary {
+    background-color: #723570;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    font-size: 1em;
+    padding: 0.8em;
+
+    &:hover, &:active, &:focus {
+      background-color: #9a2d97;
+    }
+  }
+
+  .heart-icon {
+    margin-right: 0.25em;
+  }
+}
+
+.btn-tickets {
+  background-color: white;
+  color: black;
+  font-weight: 900;
+  font-size: 2em;
+
+  &:hover, &:active, &:focus {
+    background-color: white;
+    color: #ff4161;
+  }
 }
