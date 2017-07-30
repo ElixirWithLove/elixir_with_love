@@ -8,7 +8,7 @@
       <a href="<%= List.first(@organizers).url %>" target="_blank"><%= List.first(@organizers).name %></a>
       and
       <a href="<%= List.last(@organizers).url %>" target="_blank"><%= List.last(@organizers).name %></a>.
-      <a href="info@elixir-with-love.com">Get in touch!</a>
+      <a href="mailto:info@elixir-with-love.com">Get in touch!</a>
     </p>
   </div>
 </div>

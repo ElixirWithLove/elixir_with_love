@@ -24,26 +24,10 @@
         </div>
       </div>
       <div class="col-lg-4">
-        <p><strong>Elixir With Love</strong> is a proactive conference about <strong>introducing developers</strong>
+        <p><strong>Elixir With Love</strong> is a proactive conference with the mission of <strong>introducing developers</strong>
           to this exciting new language and <strong>building a diverse Elixir community</strong>.</p>
-          <!-- Begin MailChimp Signup Form -->
-          <div id="mc_embed_signup">
-            <form action="//twitter.us15.list-manage.com/subscribe/post?u=cab520ff048112bd7b4f2a9e1&amp;id=13f16ee3b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-              <div id="mc_embed_signup_scroll">
-                <div class="form-group">
-                  <label for="mce-EMAIL">Join the mailing list:</label>
-                  <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="email address" required>
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cab520ff048112bd7b4f2a9e1_13f16ee3b6" tabindex="-1" value=""></div>
-                </div>
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary"></div>
-              </div>
-            </form>
-          </div>
-
-          <!--End mc_embed_signup-->
-          <br/>
-          <a href="#cfp" class="cfp-link">&raquo; Call for Proposals</a>
+        <p><a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-secondary btn-tickets">&raquo; Get Tickets Today!</a></p>
+        <p><a href="#cfp" class="btn btn-secondary">Submit a Proposal</a></p>
         </div>
       </div>
     </div> <!-- /container -->
@@ -51,6 +35,7 @@
 </div>
 
 <div class="container-fluid">
+  <%= render(ElixirWithLove.PageView, "_registration.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_cfp.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_keynote.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_about.html", conn: @conn, organizers: @organizers) %>

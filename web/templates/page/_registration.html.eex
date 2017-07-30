@@ -1,0 +1,29 @@
+<div id="registration" class="row registration-row">
+  <div class="col-sm-5 offset-md-1">
+    <p class="lead"><img class="heart-icon" alt="Heart Icon" src="<%= static_path(@conn, "/images/iconset/typicons-heart-pink.svg") %>" alt="Heart icon"> We love Elixir! Find out why.</p>
+    <p>Registration includes a full day of technical talks introducing you to the most exciting language features, functional coding practices, and projects in the burgeoning <strong>Elixir, Erlang/OTP, and Phoenix ecosystem</strong>.</p>
+
+    <p>We'll also feature cultural talks that focus on building a positive, welcoming Elixir community in the tech industry.</p>
+
+    <p>Breakfast, lunch, coffee, and snacks will be provided throughout the day for all attendees. Extra activities like lightning talks and a book raffle are planned.</p>
+    <p>
+      <a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-primary">Reserve Your Ticket Now</a>
+      <a href="#" target="_blank" class="btn btn-secondary">Sponsor Elixir with Love</a>
+    </p>
+    <p>&hellip; but don't forget! Speakers attend free. <a href="#cfp">Submit a talk today!</a></p>
+  </div>
+  <div class="col-sm-5">
+    <p class="lead">
+       Each and every ticket is a vote advocating for inclusivity in open source development.
+    </p>
+    <p>
+      In spirit of the conference mission, we are able to offer an uncapped number of <strong>diversity tickets</strong> by providing them at a reduced rate for members of underrepresented communities in tech.
+    </p>
+    <p>As members and allies of those communities ourselves, we see a tremendous opportunity in 2017 to increase the representation of
+    women, people of color, LGBTQIA+ people, people with disabilities, and other marginalized groups at <strong>Elixir with Love</strong>
+    and in the larger open source community.
+    </p>
+    <p>In addition, a limited number of free <strong>scholarship tickets</strong> for those facing economic, social, or other hardships
+      will be made available via a lottery system depending on sponsorship support and attendee contributions. <a href="http://eepurl.com/cXS6GP" target="_blank">Receive an email update</a> when applications are open!</p>
+  </div>
+</div>
