@@ -27,7 +27,7 @@
         <p><strong>Elixir With Love</strong> is a proactive conference with the mission of <strong>introducing developers</strong>
           to this exciting new language and <strong>building a diverse Elixir community</strong>.</p>
         <p><a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-secondary btn-tickets">&raquo; Get Tickets Today!</a></p>
-        <p><a href="#cfp" class="btn btn-secondary">Submit a Proposal</a></p>
+        <p><a href="#cfp" class="btn btn-secondary btn-cfp">Submit a Talk</a></p>
         </div>
       </div>
     </div> <!-- /container -->
@@ -38,5 +38,7 @@
   <%= render(ElixirWithLove.PageView, "_registration.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_cfp.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_keynote.html", conn: @conn) %>
+  <%= render(ElixirWithLove.PageView, "_venue.html", conn: @conn) %>
+  <!-- <%= render(ElixirWithLove.PageView, "_sponsor_footer.html", conn: @conn) %> -->
   <%= render(ElixirWithLove.PageView, "_about.html", conn: @conn, organizers: @organizers) %>
 </div>
