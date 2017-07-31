@@ -1,12 +1,12 @@
 <div id="venue" class="row align-items-center">
   <div class="col-md-4 offset-md-1 venue-description">
     <h3>Venue</h3>
-    <p>Elixir with Love will take place at the historic <a href="http://providencebiltmore.com">Providence Biltmore</a> in Providence, RI.</p>
+    <p>Elixir with Love will take place at the historic <a href="http://providencebiltmore.com">Providence Biltmore</a> in Providence, RI. More details to come!</p>
     <div class="row">
-      <div class="align-items-start">
+      <div class="col-sm-1 align-items-start">
         <img src="<%= static_path(@conn, "/images/map_marker_pink.svg") %>">
       </div>
-      <div class="col-md-10">
+      <div class="col-sm-10">
         <address>
           11 Dorrance Street<br/>
           Providence, Rhode Island 02903
