@@ -14,4 +14,8 @@ defmodule ElixirWithLove.PageController do
   def conduct(conn, _params) do
     render conn, "conduct.html"
   end
+
+  def sponsorships(conn, _params) do
+    redirect conn, external: "https://s3.amazonaws.com/elixir-with-love/EWL-2017-sponsorship-prospectus.pdf"
+  end
 end

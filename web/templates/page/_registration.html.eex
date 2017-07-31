@@ -8,7 +8,7 @@
     <p>Breakfast, lunch, coffee, and snacks will be provided throughout the day for all attendees. Extra activities like lightning talks and a book raffle are planned.</p>
     <p>
       <a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-primary">Reserve Your Ticket Now</a>
-      <a href="<%= static_path(@conn, "/EWL-2017-sponsorship-prospectus.pdf") %>" target="_blank" class="btn btn-secondary">Sponsor Elixir with Love</a>
+      <%= link("Sponsor Elixir with Love", to: "/sponsorships", class: "btn btn-secondary", target: "_blank") %>
     </p>
     <p>&hellip; but don't forget! Speakers attend free. <a href="#cfp">Submit a talk today!</a></p>
   </div>
