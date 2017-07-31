@@ -7,23 +7,7 @@
   <meta name="description" content="Elixir With Love is a proactive conference about introducing developers to this exciting new language and building a diverse Elixir community.">
   <meta name="author" content="">
   <meta name="theme-color" content="#7376c3">
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-98689092-1', 'auto');
-  ga('send', 'pageview');
-  </script>
-  <script>
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
-  analytics.load("8hQr6RR8fNm2dKKZ65mdYtGaEYsMzmBp");
-  analytics.page();
-}}();
-</script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
 <title>Elixir with Love</title>
 <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 <link rel="apple-touch-icon" sizes="180x180" href="<%= static_path(@conn, "/images/favicons/apple-touch-icon.png") %>">
@@ -41,16 +25,19 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <%= link("Code of Conduct", to: "/conduct", class: "nav-link") %>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="/#registration">Tickets</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#cfp">Call for Proposals</a>
+          <%= link("Conduct", to: "/conduct", class: "nav-link") %>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#cfp">Talk Submission</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/#keynote">Featured Keynote</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#venue">Venue</a>
         </li>
       </ul>
       <ul class="navbar-nav">
@@ -75,7 +62,335 @@
   <footer class="text-center">
     &copy; 2017 Elixir with Love <span class="purple-heart">❤</span>
   </footer>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    ga('create', 'UA-98689092-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script>
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+    analytics.load("8hQr6RR8fNm2dKKZ65mdYtGaEYsMzmBp");
+    analytics.page();
+  }}();
+  </script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJwDEGmAU_gCOKrk2LB2_g3Vjc5ZVu5i0&callback=initMap"></script>
+<script>
+  function initMap() {
+    var styledMapType = new google.maps.StyledMapType([
+    {
+        "featureType": "administrative",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "weight": 0.4
+            },
+            {
+                "color": "#FFFFFF"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#20214A"
+            },
+            {
+                "weight": 0.1
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#3e335a"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#ffffff"
+            },
+            {
+                "weight": "0.01"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.attraction",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "gamma": "1.42"
+            },
+            {
+                "lightness": "63"
+            },
+            {
+                "saturation": "63"
+            },
+            {
+                "hue": "#ff0000"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.attraction",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "off"
+            },
+            {
+                "hue": "#ff0000"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.business",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.government",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.medical",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.medical",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#EF5084"
+            },
+            {
+                "weight": 0.7
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "weight": 0.8
+            },
+            {
+                "visibility": "off"
+            },
+            {
+                "hue": "#ff0000"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels.text",
+        "stylers": [
+            {
+                "weight": 1.3
+            },
+            {
+                "color": "#FFFFFF"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway.controlled_access",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#FEFEFE"
+            },
+            {
+                "weight": 1.1
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "color": "#FDF9CB"
+            },
+            {
+                "weight": 0.7
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f55f77"
+            },
+            {
+                "weight": 0.4
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit.line",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#373980"
+            }
+        ]
+    }
+]);
+    var icon = {
+      url: "<%= static_path(@conn, "/images/map_marker_pink.svg") %>",
+      size: new google.maps.Size(32, 32)
+    };
+    var loc = { lat: 41.82, lng: -71.41 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 15,
+      center: loc,
+      zoomControl: false,
+      mapTypeControl: false,
+      scaleControl: false,
+      streetViewControl: false,
+      rotateControl: false,
+      fullscreenControl: false,
+      scrollwheel: false,
+      disableDoubleClickZoom: true,
+      mapTypeControlOptions: {
+       mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+               'styled_map']
+      },
+      disableDefaultUI: true
+    });
+    var marker = new google.maps.Marker({
+      position: loc,
+      map: map,
+      icon: icon,
+      url: 'https://www.google.com/maps/dir//Providence+Biltmore,+Curio+Collection+by+Hilton,+11+Dorrance+St,+Providence,+RI+02903/@41.8245648,-71.4155881,17z/data=!4m15!1m6!3m5!1s0x89e4451158a3cc03:0x3b88861277135d60!2sProvidence+Biltmore,+Curio+Collection+by+Hilton!8m2!3d41.8245648!4d-71.4133994!4m7!1m0!1m5!1m1!1s0x89e4451158a3cc03:0x3b88861277135d60!2m2!1d-71.4133994!2d41.8245648'
+    });
+    map.mapTypes.set('styled_map', styledMapType);
+    map.setMapTypeId('styled_map');
+  }
+</script>
 </body>
 </html>

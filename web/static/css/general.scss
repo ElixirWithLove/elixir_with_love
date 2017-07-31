@@ -85,6 +85,10 @@ h1 {
   margin-top: -2.25rem;
 }
 
+a.btn {
+  border-radius: 0;
+}
+
 p {
   strong {
     color: $brand-secondary;
@@ -102,6 +106,10 @@ p {
 
   @media (max-width: 990px) {
     padding-top: 4em;
+  }
+
+  .btn-cfp {
+    background-color: black;
   }
 
   .btn-secondary {
@@ -169,7 +177,7 @@ footer {
   box-shadow: 0 0 20px 0 rgba(0,0,0,.3);
   font-family: $font-family-serif;
   font-size: 1em;
-  font-weight: 900;
+  font-weight: 700;
   border-width: 0px;
   padding: 0.8em;
   border-bottom: 2px solid darken($dark-purple, 20%);
@@ -302,7 +310,7 @@ input {
   font-size: 0.95em;
   color: white;
 
-  a {
+  a:not(.btn) {
     font-weight: 700;
     text-decoration: underline;
   }
@@ -322,52 +330,112 @@ input {
     font-weight: 900;
   }
 
-  a.btn {
-    font-family: $font-family-sans-serif;
-    font-weight: 800;
-    letter-spacing: 1px;
-    border: none;
-    color: white;
-    text-decoration: none;
-
-    &:hover, &:active, &:focus {
-      color: white;
-    }
-  }
-
-  .btn-primary {
-    background-color: #3946af;
-
-    &:hover, &:active, &:focus {
-      background-color: #2c41e8;
-    }
-  }
-
-  .btn-secondary {
-    background-color: #723570;
-    border-radius: 3px;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
-    font-size: 1em;
-    padding: 0.8em;
-
-    &:hover, &:active, &:focus {
-      background-color: #9a2d97;
-    }
-  }
-
   .heart-icon {
     margin-right: 0.25em;
   }
 }
 
-.btn-tickets {
+a.btn {
+  font-family: $font-family-sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  border: none;
+  color: white;
+  text-decoration: none;
+
+  &:hover, &:active, &:focus {
+    color: white;
+  }
+}
+
+.btn-primary {
+  background-color: #3946af;
+
+  &:hover, &:active, &:focus {
+    background-color: #2c41e8;
+  }
+}
+
+.btn-secondary {
+  background-color: #723570;
+  border-radius: 3px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  font-size: 1em;
+  padding: 0.8em;
+
+  &:hover, &:active, &:focus {
+    background-color: #9a2d97;
+  }
+}
+
+a.btn-tickets {
   background-color: white;
   color: black;
   font-weight: 900;
-  font-size: 2em;
 
   &:hover, &:active, &:focus {
     background-color: white;
-    color: #ff4161;
+    color: #3946AF;
+  }
+}
+
+#venue {
+  padding: 2em 0;
+  background-image: url("/images/biltmore_at_night2.png");
+  background-color: #4F53B4;
+  background-position: bottom right;
+  background-size: cover;
+
+  .venue-description {
+    padding-left: 3em;
+
+    h4 {
+      font-family: $font-family-serif;
+      font-size: 1em;
+      background-color: #6165BB;
+      display: inline-block;
+      padding: 0.25em 1em;
+    }
+  }
+}
+
+#venue, #venue-map {
+  font-family: $font-family-sans-serif;
+  color: #FFF;
+
+  a {
+    color: #FEFACB;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+#sponsors {
+  padding: 3em 0;
+  background-color: #4F53B4;
+  color: white;
+
+  .logos {
+    padding: 2em 0;
+  }
+
+  a {
+    color: black;
+    font-weight: 900;
+   }
+
+
+  h3 {
+    color: white;
+  }
+}
+
+a {
+  color: white;
+  &:hover, &:active, &:focus {
+    color: lighten(#7376C3, 25%);
   }
 }
