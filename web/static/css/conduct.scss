@@ -28,6 +28,10 @@
     font-family: $font-family-sans-serif;
   }
 
+  a {
+    color: #3946AF;
+  }
+
   strong {
     font-size: 1.1em;
     background-color: lighten($brand-tetriary, 20%);
