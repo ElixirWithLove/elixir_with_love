@@ -27,11 +27,13 @@
         <p><strong>Elixir With Love</strong> is a proactive conference with the mission of <strong>introducing developers</strong>
           to this exciting new language and <strong>building a diverse Elixir community</strong>.</p>
         <p><a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-secondary btn-tickets">&raquo; Get Tickets Today!</a></p>
-        <p><a href="#cfp" class="btn btn-secondary btn-cfp">Submit a Talk</a></p>
-        </div>
+        <p>
+          <a href="#cfp" class="btn btn-secondary btn-misc">Submit a Talk</a>
+          <a href="http://eepurl.com/cX-1rj" target="_blank" class="btn btn-secondary btn-misc">Join Mailing List</a>
+        </p>
       </div>
-    </div> <!-- /container -->
-  </div>
+    </div>
+  </div> <!-- /container -->
 </div>
 
 <div class="container-fluid">
