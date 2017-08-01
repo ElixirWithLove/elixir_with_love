@@ -1,5 +1,5 @@
 <div id="registration" class="row registration-row">
-  <div class="col-sm-5 offset-md-1">
+  <div class="col-sm-12 col-md-5 offset-md-1">
     <p class="lead"><img class="heart-icon" alt="Heart Icon" src="<%= static_path(@conn, "/images/iconset/typicons-heart-pink.svg") %>" alt="Heart icon"> We love Elixir! Find out why.</p>
     <p>Registration includes a full day of technical talks introducing you to the most exciting language features, functional coding practices, and projects in the burgeoning <strong>Elixir, Erlang/OTP, and Phoenix ecosystem</strong>.</p>
 
@@ -12,7 +12,7 @@
     </p>
     <p>&hellip; but don't forget! Speakers attend free. <a href="#cfp">Submit a talk today!</a></p>
   </div>
-  <div class="col-sm-5">
+  <div class="col-sm-12 col-md-5">
     <p class="lead">
        Each and every ticket is a vote advocating for inclusivity in open source development.
     </p>
