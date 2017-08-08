@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Elixir With Love is a proactive conference about introducing developers to this exciting new language and building a diverse Elixir community.">
+  <meta name="description" content="Elixir With Love is a proactive conference with the mission of introducing developers to the exciting new Elixir programming language and building a diverse Elixir community.">
   <meta name="author" content="">
   <meta name="theme-color" content="#7376c3">
   <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-<title>Elixir with Love</title>
+<title>Elixir with Love Conference</title>
 <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
 <link rel="apple-touch-icon" sizes="180x180" href="<%= static_path(@conn, "/images/favicons/apple-touch-icon.png") %>">
 <link rel="icon" type="image/png" href="<%= static_path(@conn, "/images/favicons/favicon-32x32.png") %>" sizes="32x32">
