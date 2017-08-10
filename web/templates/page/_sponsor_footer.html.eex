@@ -21,7 +21,7 @@
       <div class="col-md-3 sponsor-bar"><div></div></div>
       <div class="col-md-6 sponsor-call text-center">
         <p>
-          <strong><span class="just">Just as</span> about building an inclusive Elixir community as we all are?</strong>
+          <strong>Just as excited about building an inclusive Elixir community as we all are?</strong>
           <br/><br/>Get your company to sponsor today!<br/>Look through our <%= link("sponsor possibilities (PDF)", to: "/sponsorships", target: "_blank") %> &amp;
           <a href="mailto:sponsorships@elixir-with-love.com">email</a> or <a href="https://twitter.com/elixir_w_love">tweet @ us</a> to chat!
         </p>
