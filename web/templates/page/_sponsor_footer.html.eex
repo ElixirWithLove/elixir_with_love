@@ -1,25 +1,32 @@
-<div id="sponsors" class="row justify-content-center">
-  <div class="col-md-10">
+<div id="sponsors" class="row sponsor-row justify-content-center">
+  <div class="col-md-12">
     <div class="row">
       <div class="col-md-12 text-center">
-        <h3>Sponsors</h3>
+        <h3>Our incredible sponsors:</h3>
       </div>
     </div>
     <div class="row logos align-items-center justify-content-center">
-      <div class="col-sm-3">
-        <img src="<%= static_path(@conn, "/images/mojotech-full.png") %>" class="img-fluid" alt="MojoTech logo">
+      <div class="col-sm-4">
+        <a href="https://www.mojotech.com/" target="_blank">
+          <img src="<%= static_path(@conn, "/images/mojotech-full.png") %>" class="img-fluid" alt="MojoTech logo">
+        </a>
       </div>
-      <div class="col-sm-3">
-        <img src="<%= static_path(@conn, "/images/vermonster-logo.png") %>" class="img-fluid" alt="MojoTech logo">
+      <div class="col-sm-4">
+        <a href="http://www.vermonster.com/" target="_blank">
+          <img src="<%= static_path(@conn, "/images/vermonster-logo.png") %>" class="img-fluid" alt="Vermonster logo">
+        </a>
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-10">
-        <p class="text-center">
-          Will your company support the first ever inclusivity-themed, community-building Elixir conference?
-           Take a look through our <a href="#">sponsorship prospectus</a> and <a href="mailto:sponsorships@elixir-with-love.com">email us</a> for more information!
+    <div class="row align-items-center justify-content-center">
+      <div class="col-md-3 sponsor-bar"><div></div></div>
+      <div class="col-md-6 sponsor-call text-center">
+        <p>
+          <strong><span class="just">Just as</span> about building an inclusive Elixir community as we all are?</strong>
+          <br/><br/>Get your company to sponsor today!<br/>Look through our <%= link("sponsor possibilities (PDF)", to: "/sponsorships", target: "_blank") %> &amp;
+          <a href="mailto:sponsorships@elixir-with-love.com">email</a> or <a href="https://twitter.com/elixir_w_love">tweet @ us</a> to chat!
         </p>
       </div>
+      <div class="col-md-3 sponsor-bar"><div></div></div>
     </div>
   </div>
 </div>

@@ -8,6 +8,7 @@ body {
 
 .navbar {
   border-width: 0;
+  font-size: 0.9em;
 }
 
 .navbar-inverse {
@@ -27,7 +28,6 @@ body {
 }
 
 h1 {
-  text-transform: uppercase;
   font-weight: 900;
 }
 
@@ -53,7 +53,7 @@ h3 {
 }
 
 h4 {
-  color: $brand-info;
+  color: white;
 }
 
 h1 {
@@ -61,7 +61,7 @@ h1 {
 
   small {
     font-size: 4.2rem;
-    color: $brand-info;
+    color: white;
   }
 }
 
@@ -100,6 +100,10 @@ p {
   margin-bottom: 0;
   transition: padding-top 1s ease-in-out;
 
+  h1, h3 {
+    text-transform: uppercase;
+  }
+
   h3 {
     font-size: 1.75rem;
   }
@@ -108,11 +112,12 @@ p {
     padding-top: 4em;
   }
 
-  .btn-misc {
-    background-color: black;
+  .btn-secondary.btn-misc {
+    background-color: $black;
   }
 
   .btn-secondary {
+    background-color: white;
     cursor: pointer;
     border: 0;
   }
@@ -127,19 +132,22 @@ p {
   margin-top: 2em;
 }
 
-.landing-jumbo, .cfp-row, .registration-row {
+.landing-jumbo, .cfp-row, .registration-row, .sponsor-row {
   min-height: 100vh;
 }
 
 .cfp-row {
   font-family: $font-family-sans-serif;
-  font-size: 0.9em;
-  background-color: $brand-info;
+  background-color: #f3f3ff;
   padding: 6em 0;
-  color: $brand-secondary;
+  color: black;
+
+  strong {
+    color: black;
+  }
 
   h3 {
-    color: $brand-secondary;
+    color: black;
     padding-right: 0.5em;
     display: inline-block;
   }
@@ -150,6 +158,10 @@ p {
 
   .paper {
     height: 1em;
+  }
+
+  a.btn-primary {
+    background-color: $black;
   }
 }
 
@@ -230,7 +242,7 @@ input {
 
 .inline-logo-text {
   font-family: $font-family-sans-serif;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 0.3em 0.3em 0.3em 0;
   color: $brand-secondary;
   background-color: $brand-info;
@@ -277,7 +289,7 @@ input {
   font-size: 0.8em;
 
   p, strong {
-    color: white;
+    color: $white;
   }
 
   h3 {
@@ -312,7 +324,7 @@ input {
   background-color: #20214A;
   font-family: $font-family-sans-serif;
   font-size: 0.95em;
-  color: white;
+  color: $white;
 
   a:not(.btn) {
     font-weight: 700;
@@ -324,13 +336,13 @@ input {
   }
 
   .lead {
-    color: white;
+    color: $white;
     font-weight: 900;
     font-size: 1.5em;
   }
 
   strong {
-    color: white;
+    color: $white;
     font-weight: 900;
   }
 
@@ -344,11 +356,11 @@ a.btn {
   font-weight: 800;
   letter-spacing: 1px;
   border: none;
-  color: white;
+  color: $white;
   text-decoration: none;
 
   &:hover, &:active, &:focus {
-    color: white;
+    color: $white;
   }
 }
 
@@ -373,12 +385,12 @@ a.btn {
 }
 
 a.btn-tickets {
-  background-color: white;
-  color: black;
+  background-color: $white;
+  color: $black;
   font-weight: 900;
 
   &:hover, &:active, &:focus {
-    background-color: white;
+    background-color: $white;
     color: #3946AF;
   }
 }
@@ -418,27 +430,62 @@ a.btn-tickets {
 }
 
 #sponsors {
-  padding: 3em 0;
-  background-color: #4F53B4;
-  color: white;
+  padding: 6em 0;
+  background-color: #29295C;
+  // background-image: url('/images/memphis-bg.png');
+  font-family: $font-family-sans-serif;
+  color: $white;
 
   .logos {
-    padding: 2em 0;
+    padding: 2em;
   }
 
   a {
-    color: black;
+    color: $white;
     font-weight: 900;
    }
 
 
   h3 {
-    color: white;
+    color: $white;
+    text-transform: none;
+    font-size: 1.4em;
+  }
+
+  .sponsor-call {
+    background-color: #f3f3ff;
+    color: black;
+    padding: 1.5em;
+    font-size: 0.75em;
+
+    a {
+      border-bottom: 2px solid #3E335A;
+    }
+
+    a, strong {
+      color: #29295C;
+    }
+
+    strong {
+      font-size: 1.5em;
+    }
+
+    .just {
+      color: #EF5084;
+    }
+  }
+
+  .sponsor-bar {
+    padding: 0;
+
+    div {
+      height: 1em;
+    }
   }
 }
 
 a {
-  color: white;
+  color: $white;
   &:hover, &:active, &:focus {
     color: lighten(#7376C3, 25%);
   }

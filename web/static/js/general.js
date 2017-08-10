@@ -1,7 +1,7 @@
 $(function(){
 
   function rowInit() {
-    var rows   = $('.landing-jumbo, .cfp-row, .registration-row'),
+    var rows   = $('.landing-jumbo, .cfp-row, .registration-row, .sponsor-row'),
         winHeight   = $(window).height(),
         rowHeight  = winHeight;
 
