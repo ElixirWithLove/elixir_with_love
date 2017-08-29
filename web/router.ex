@@ -19,6 +19,7 @@ defmodule ElixirWithLove.Router do
     get "/", PageController, :index
     get "/conduct", PageController, :conduct
     get "/about", PageController, :about
+    get "/sponsors", PageController, :sponsors
     get "/sponsorships", PageController, :sponsorships
   end
 

@@ -456,7 +456,7 @@ a.btn-tickets {
     background-color: #f3f3ff;
     color: black;
     padding: 1.5em;
-    font-size: 0.75em;
+    font-size: 0.9em;
 
     a {
       border-bottom: 2px solid #3E335A;
@@ -467,7 +467,7 @@ a.btn-tickets {
     }
 
     strong {
-      font-size: 1.5em;
+      font-size: 1.15em;
     }
 
     .just {
@@ -489,4 +489,41 @@ a {
   &:hover, &:active, &:focus {
     color: lighten(#7376C3, 25%);
   }
+}
+
+#sponsors.sponsor-page {
+  padding: 4em;
+  p {
+    font-size: .9em;
+  }
+  h1 {
+    font-size: 2em;
+  }
+
+  .single-sponsor {
+    margin-top: 0.5em;
+  }
+  .sponsor-call {
+    background-color: #1E2349;
+    color: white;
+
+    strong {
+      color: white;
+    }
+    h2 {
+      font-size: 1.4em;
+      line-height: 1.5em;
+    }
+    p {
+      font-size: 0.7em;
+    }
+    a {
+      color: #BFF3FB;
+      text-decoration: underline;
+    }
+  }
+}
+
+.single-sponsor {
+  padding: 1em 0;
 }
