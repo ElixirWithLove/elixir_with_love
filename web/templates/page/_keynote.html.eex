@@ -1,8 +1,146 @@
+<div id="speakers" class="row speakers-row justify-content-center">
+  <div class="col-sm-3">
+    <h3>Elixir 1.6</h3>
+    <hr/>
+    <a href="https://github.com/fishcakez" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <figcaption>
+          <h3>James Fish</h3><br/>
+          <p>@fishcakez</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      Elixir 1.6
+    </p>
+    <p>
+      James is a member of the Elixir and Ecto core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the Elixir IRC channel he enjoys playing soccer and baking cakes.
+    </p>
+    <br/>
+  </div>
+  <div class="col-sm-3">
+    <h3>Functional Full-Stack Systems with Elixir, Phoenix, Nerves, and Elm</h3>
+    <hr/>
+    <a href="https://github.com/fishcakez" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <figcaption>
+          <h3>Greg Mefford</h3><br/>
+          <p>@ferggo</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      Property-based testing is a mindset
+    </p>
+    <p>
+      Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+    </p>
+    <br/>
+  </div>
+  <div class="col-sm-3">
+    <h3>ElixirBridge</h3>
+    <hr/>
+    <a href="https://github.com/fishcakez" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <figcaption>
+          <h3>Anna Neyzberg</h3><br/>
+          <p>@ANeyzb</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      ElixirBridge
+    </p>
+    <p>
+      Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+    </p>
+    <br/>
+  </div>
+</div>
+
+<div id="speakers" class="row speakers-row justify-content-center">
+  <div class="col-sm-3">
+    <h3>Property-based testing is a mindset</h3>
+    <hr/>
+    <a href="https://github.com/fishcakez" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <figcaption>
+          <h3>Andrea Leopardi</h3><br/>
+          <p>@whatyouhide</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      Property-based testing is a technique that allows to reduce the number of unit tests and at the same time increase the robustness of a test suite by introducing randomness. It also changes the way you think about code. We now have a robust property testing library in Elixir, so time to jump into it!
+    </p>
+    <p>
+      Andrea is a programming enthusiast with a soft spot for functional programming and beautiful code. He loves learning new stuff. He strongly believes in accessible culture and education and in open-source software. He’s a member of the Elixir core team and uses almost exclusively Elixir for work purposes.
+    </p>
+    <br/>
+  </div>
+  <div class="col-sm-3">
+    <h3>Ticket to Fly</h3>
+    <hr/>
+    <a href="http://twitter.com/jenkoni" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <figcaption>
+          <h3>Cathy Zoller</h3><br/>
+          <p>@mojo_cathy</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      While porting a project from Ruby on Rails to Elixir/Phoenix (plus React), I’ve realized just how deceiving looks can be. “Ticket to Fly” focuses on finding solutions to unexpected challenges along the way. Specifically, we’ll look into working with images, a case for recursion and fun with pipes.
+    </p>
+    <p>
+      Cathy Zoller is a software engineer at Mojotech’s Boulder office. Lately she spends her days working with React and Elixir. On summer weekends you’ll find her in the garden building a habitat for birds, bees & butterflies. When the snow flies (winter is coming) she spins yarn, knits socks and programs in Elixir as much as possible.
+    </p>
+    <br/>
+  </div>
+  <div class="col-sm-3">
+    <h3>Building a Community For Beginners</h3>
+    <hr/>
+    <a href="http://twitter.com/jenkoni" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <figcaption>
+          <h3>Jennfier Konikowski</h3><br/>
+          <p>@jenkoni</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      How do you foster new developers within the community? I will tell you how I grew PyLadies Boston from zero to a thousand by focusing primarily on beginners.
+    </p>
+    <p>
+      I’m the founder of PyLadies Boston, an organization dedicated to bringing more women into the open-source community in Boston. I currently work as a software developer at Akamai, but my passion is teaching women how to code. I just moved to Pittsburgh and am getting involved with the community there!
+    </p>
+    <br/>
+  </div>
+</div>
+
 <div id="keynote" class="row keynote-row justify-content-center">
   <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
-        <h3>Featured Keynote</h3>
+        <h3>Cultural Keynote</h3>
         <hr/>
       </div>
       <div class="col-sm-3 col-md-8 col-lg-7">
