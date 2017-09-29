@@ -1,4 +1,4 @@
-<div id="speaker" class="row speaker-row-1 justify-content-center">
+<div id="speakers" class="row speaker-row-1 justify-content-center">
   <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
@@ -160,7 +160,7 @@
       While porting a project from Ruby on Rails to Elixir/Phoenix (plus React), I’ve realized just how deceiving looks can be. “Ticket to Fly” focuses on finding solutions to unexpected challenges along the way. Specifically, we’ll look into working with images, a case for recursion, and fun with pipes.
     </p>
     <div class="speaker-bio">
-      <p>Cathy Zoller is a software engineer at Mojotech’s Boulder office. Lately she spends her days working with React and Elixir. On summer weekends you’ll find her in the garden building a habitat for birds, bees & butterflies. When the snow flies (winter is coming) she spins yarn, knits socks and programs in Elixir as much as possible.</p>
+      <p>Cathy Zoller is a software engineer at Mojotech’s Boulder office. Lately she spends her days working with React and Elixir. On summer weekends you’ll find her in the garden building a habitat for birds, bees & butterflies. When the snow flies (winter is coming) she spins yarn, knits socks, and programs in Elixir as much as possible.</p>
     </div>
   </div>
 </div>
