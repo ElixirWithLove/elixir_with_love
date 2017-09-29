@@ -4,7 +4,7 @@
     <hr/>
     <a href="https://github.com/fishcakez" target="_blank">
       <figure class="keynote-figure">
-        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JamesFish.jpeg") %>" alt="James Fish">
         <figcaption>
           <h3>James Fish</h3><br/>
           <p>@fishcakez</p>
@@ -14,7 +14,7 @@
       </figure>
     </a>
     <p class="keynote-abstract text-center">
-      Elixir 1.6
+      Elixir 1.6 is coming at the start of 2018! This talk will showcase new features, and a few old, that help meet our three main design goals: productivity, maintainability, and reliability. Expect a few tips and tricks along the way for Elixirists of any level of expertise.
     </p>
     <p>
       James is a member of the Elixir and Ecto core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the Elixir IRC channel he enjoys playing soccer and baking cakes.
@@ -22,33 +22,11 @@
     <br/>
   </div>
   <div class="col-sm-3">
-    <h3>Functional Full-Stack Systems with Elixir, Phoenix, Nerves, and Elm</h3>
+    <h3>How do we shape the Elixir community?</h3>
     <hr/>
     <a href="https://github.com/fishcakez" target="_blank">
       <figure class="keynote-figure">
-        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
-        <figcaption>
-          <h3>Greg Mefford</h3><br/>
-          <p>@ferggo</p>
-        </figcaption>
-        <div class="keynote-deco keynote-shine rounded-circle"></div>
-        <div class="keynote-deco keynote-overlay rounded-circle"></div>
-      </figure>
-    </a>
-    <p class="keynote-abstract text-center">
-      Property-based testing is a mindset
-    </p>
-    <p>
-      Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
-    </p>
-    <br/>
-  </div>
-  <div class="col-sm-3">
-    <h3>ElixirBridge</h3>
-    <hr/>
-    <a href="https://github.com/fishcakez" target="_blank">
-      <figure class="keynote-figure">
-        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/AnnaNeyzberg.jpg") %>" alt="Anna Neyzberg">
         <figcaption>
           <h3>Anna Neyzberg</h3><br/>
           <p>@ANeyzb</p>
@@ -58,22 +36,19 @@
       </figure>
     </a>
     <p class="keynote-abstract text-center">
-      ElixirBridge
+      We talk about Elixir as powerful language. What about the power of community? I co-founded ElixirBridge (a volunteer run org. that has free workshops in Elixir and Phoenix for underrepresented populations in tech) - this talk explores what worked, what failed, and why community is important.
     </p>
     <p>
-      Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.
+      Anna Neyzberg is a San Francisco native who has done a lot of work in the ruby community in SF and currently sits on the board of RailsBridge. She has taken this community organizing experience and last year co-founded ElixirBridge - an organization that offers free weekend long workshops, with the goal of creating an inclusive welcoming space for underrepresented populations in tech to learn elixir. By day she works as a Developer at Carbon Five. When not in front of a keyboard or at an ElixirBridge event, she is trying to get better at climbing rocks.
     </p>
     <br/>
   </div>
-</div>
-
-<div id="speakers" class="row speakers-row justify-content-center">
   <div class="col-sm-3">
     <h3>Property-based testing is a mindset</h3>
     <hr/>
     <a href="https://github.com/fishcakez" target="_blank">
       <figure class="keynote-figure">
-        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/AndreaLeopardi.jpeg") %>" alt="Andrea Leopardi">
         <figcaption>
           <h3>Andrea Leopardi</h3><br/>
           <p>@whatyouhide</p>
@@ -90,12 +65,37 @@
     </p>
     <br/>
   </div>
+</div>
+
+<div id="speakers" class="row speakers-row justify-content-center">
   <div class="col-sm-3">
-    <h3>Ticket to Fly</h3>
+    <h3>Functional Full-Stack Systems with Elixir, Phoenix, Nerves, and Elm</h3>
+    <hr/>
+    <a href="https://github.com/fishcakez" target="_blank">
+      <figure class="keynote-figure">
+        <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/GregMefford.jpg") %>" alt="Greg Mefford">
+        <figcaption>
+          <h3>Greg Mefford</h3><br/>
+          <p>@ferggo</p>
+        </figcaption>
+        <div class="keynote-deco keynote-shine rounded-circle"></div>
+        <div class="keynote-deco keynote-overlay rounded-circle"></div>
+      </figure>
+    </a>
+    <p class="keynote-abstract text-center">
+      With Elixir, Phoenix, and Nerves, your small team can handle everything from sensors and devices in a warehouse to robust and maintainable front-end code running in your browser, with minimal context-switching overhead.
+    </p>
+    <p>
+      Greg is a member of the Nerves core team and loves to help new people join the Nerves community by writing documentation, answering questions in Slack, and giving presentations. He’s also quickly becoming an Elm evangelist.
+    </p>
+    <br/>
+  </div>
+  <div class="col-sm-3">
+    <h3>Phoenix: A Ticket to Fly</h3>
     <hr/>
     <a href="http://twitter.com/jenkoni" target="_blank">
       <figure class="keynote-figure">
-        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/CathyZoller.jpg") %>" alt="Cathy Zoller">
         <figcaption>
           <h3>Cathy Zoller</h3><br/>
           <p>@mojo_cathy</p>
@@ -117,7 +117,7 @@
     <hr/>
     <a href="http://twitter.com/jenkoni" target="_blank">
       <figure class="keynote-figure">
-        <img class="keynote-pic rounded-circle" src="https://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=43891614" alt="Ed Finkler">
+        <img class="keynote-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JenniferKonikowski.jpg") %>" alt="Jennifer Konikowski">
         <figcaption>
           <h3>Jennfier Konikowski</h3><br/>
           <p>@jenkoni</p>
