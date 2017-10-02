@@ -10,7 +10,6 @@
       <a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-primary">Reserve Your Ticket Now</a>
       <%= link("Sponsor Elixir with Love", to: "/sponsorships", class: "btn btn-secondary", target: "_blank") %>
     </p>
-    <p>&hellip; but don't forget! Speakers attend free. <a href="#cfp">Submit a talk today!</a></p>
   </div>
   <div class="col-sm-12 col-md-5">
     <p class="lead">
@@ -24,6 +23,9 @@
     and in the larger open source community.
     </p>
     <p>In addition, a limited number of free <strong>scholarship tickets</strong> for those facing economic, social, or other hardships
-      will be made available via a lottery system depending on sponsorship support and attendee contributions. <a href="http://eepurl.com/cXS6GP" target="_blank">Receive an email update</a> when applications are open!</p>
+      will be made available via a lottery system thanks to sponsorship support and attendee contributions.</p>
+    <p>
+      <a href="https://goo.gl/forms/hvkaQ08qrD7tsSX22" target="_blank">Apply today</a> for a scholarship ticket or sign up to <a href="http://eepurl.com/cXS6GP" target="_blank">receive email updates</a> on their availability. The first round of tickets will be selected by <strong>Oct. 7th, 2017.</strong>
+    </p>
   </div>
 </div>
