@@ -24,10 +24,10 @@
   </div>
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-      <strong>Elixir 1.6 is coming at the start of 2018!</strong> This talk will showcase new features, and a few old, that help meet our three main design goals: productivity, maintainability, and reliability. Expect a few tips and tricks along the way for Elixirists of any level of expertise.
+      <strong><a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a> 1.6 is coming at the start of 2018!</strong> This talk will showcase new features, and a few old, that help meet our three main design goals: productivity, maintainability, and reliability. Expect a few tips and tricks along the way for Elixirists of any level of expertise.
     </p>
     <div class="speaker-bio">
-      <p>James is a member of the Elixir and Ecto core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the Elixir IRC channel he enjoys playing soccer and baking cakes.</p>
+      <p>James is a member of the <a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a> and <a href="https://github.com/elixir-ecto/ecto" target="_blank" alt="Ecto GH Repo">Ecto</a> core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the <a href="http://elixir.community/talk" alt="Elixir IRC Community">Elixir IRC channel</a> he enjoys playing soccer and baking cakes.</p>
     </div>
   </div>
 </div>
@@ -35,11 +35,11 @@
 <div id="speaker" class="row speaker-row-2 justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-      We talk about Elixir as powerful language. What about the power of community? I co-founded ElixirBridge, a volunteer-run organization that has free, weekend-long workshops in Elixir and Phoenix for underrepresented populations in tech. This talk explores what worked, what failed, and why community is important.
+      We talk about Elixir as powerful language. What about the power of community? I co-founded <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a>, a volunteer-run organization that has free, weekend-long workshops in Elixir and Phoenix for underrepresented populations in tech. This talk explores what worked, what failed, and why community is important.
     </p>
     <div class="speaker-bio">
-      <p>Anna Neyzberg is a San Francisco native who has done a lot of work in the Ruby community in SF and currently sits on the board of RailsBridge.
-        She has taken this community organizing experience and co-founded ElixirBridge last year. By day she works as a developer at Carbon Five. When not in front of a keyboard or at an ElixirBridge event, she is trying to get better at climbing rocks.</p>
+      <p>Anna Neyzberg is a San Francisco native who has done a lot of work in the Ruby community in SF and currently sits on the board of <a href="http://www.railsbridge.org/" target="_blank" alt="RailsBridge">RailsBridge</a>.
+        She has taken this community organizing experience and co-founded <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a> last year. By day she works as a developer at Carbon Five. When not in front of a keyboard or at an <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a> event, she is trying to get better at climbing rocks.</p>
     </div>
   </div>
   <div class="col-sm-12 col-md-3">
@@ -92,10 +92,10 @@
   </div>
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-        Property-based testing is a technique that allows to reduce the number of unit tests and at the same time increase the robustness of a test suite by introducing randomness. It also changes the way you think about code. We now have a robust property testing library in Elixir, so time to jump into it!
+        Property-based testing is a technique that allows to reduce the number of unit tests and at the same time increase the robustness of a test suite by introducing randomness. It also changes the way you think about code. We now have a robust property testing library in <a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a>, so time to jump into it!
     </p>
     <div class="speaker-bio">
-      <p>Andrea is a programming enthusiast with a soft spot for functional programming and beautiful code. He loves learning new stuff. He strongly believes in accessible culture and education and in open-source software. He’s a member of the Elixir core team and uses almost exclusively Elixir for work purposes.</p>
+      <p>Andrea is a programming enthusiast with a soft spot for functional programming and beautiful code. He loves learning new stuff. He strongly believes in accessible culture and education and in open-source software. He’s a member of the <a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a> core team and uses almost exclusively Elixir for work purposes.</p>
     </div>
   </div>
 </div>
@@ -103,10 +103,10 @@
 <div class="row speaker-row-2 justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-        With Elixir and Phoenix, you can build robust and performant back-end services. With Elixir and Nerves, you can extend those back-end services into your physical space, whether it be sensors in a warehouse or Internet-connected devices spread across the globe. With Elm, you can create rich and maintainable user interfaces to your system without having to invest in dedicated JavaScript expertise. Your small team of Elixir developers can handle everything from sensors and devices to front-end code running in your browser, with minimal context-switching overhead.
+        With Elixir and <a href="phoenixframework.org" target="_blank" alt="Phoenix Framework">Phoenix</a>, you can build robust and performant back-end services. With Elixir and <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a>, you can extend those back-end services into your physical space, whether it be sensors in a warehouse or Internet-connected devices spread across the globe. With <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a>, you can create rich and maintainable user interfaces to your system without having to invest in dedicated JavaScript expertise. Your small team of Elixir developers can handle everything from sensors and devices to front-end code running in your browser, with minimal context-switching overhead.
     </p>
     <div class="speaker-bio">
-      <p>Greg is a member of the Nerves core team and loves to help new people join the Nerves community by writing documentation, answering questions in Slack, and giving presentations. He’s also quickly becoming an Elm evangelist.</p>
+      <p>Greg is a member of the <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a> core team and loves to help new people join the Nerves community by writing documentation, answering questions in Slack, and giving presentations. He’s also quickly becoming an <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a> evangelist.</p>
     </div>
   </div>
   <div class="col-sm-12 col-md-4">
@@ -137,7 +137,7 @@
   <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
-        <h3>Phoenix: A Ticket to Fly</h3>
+        <h3>Phoenix and React: A Ticket to Fly</h3>
       </div>
       <div class="col-sm-3 col-md-8 col-lg-">
         <a href="http://twitter.com/mojo_cathy" target="_blank">
@@ -157,10 +157,10 @@
   </div>
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-      While porting a project from Ruby on Rails to Elixir/Phoenix (plus React), I’ve realized just how deceiving looks can be. “Ticket to Fly” focuses on finding solutions to unexpected challenges along the way. Specifically, we’ll look into working with images, a case for recursion, and fun with pipes.
+      While porting a project from Ruby on Rails to Elixir/<a href="phoenixframework.org" target="_blank" alt="Phoenix Framework">Phoenix</a> (plus <a href="https://facebook.github.io/react/" target="_blank" alt="React Library">React</a>), I’ve realized just how deceiving looks can be. “Ticket to Fly” focuses on finding solutions to unexpected challenges along the way. Specifically, we’ll look into working with images, a case for recursion, and fun with pipes.
     </p>
     <div class="speaker-bio">
-      <p>Cathy Zoller is a software engineer at Mojotech’s Boulder office. Lately she spends her days working with React and Elixir. On summer weekends you’ll find her in the garden building a habitat for birds, bees & butterflies. When the snow flies (winter is coming) she spins yarn, knits socks, and programs in Elixir as much as possible.</p>
+      <p>Cathy Zoller is a software engineer in Boulder at Mojotech. Lately she spends her days working with React and Elixir. On summer weekends you’ll find her in the garden building a habitat for birds, bees & butterflies. When the snow flies (winter is coming) she spins yarn, knits socks, and programs in Elixir as much as possible.</p>
     </div>
   </div>
 </div>
@@ -171,7 +171,7 @@
         How do you foster <strong>new</strong> developers within the community? I will tell you how I grew PyLadies Boston from zero to a thousand by focusing primarily on beginners.
     </p>
     <div class="speaker-bio">
-      <p>Jennifer is the founder of PyLadies Boston, an organization dedicated to bringing more women into the open-source community in Boston. She currently works as a software developer at Akamai, but her passion is teaching women how to code. She recently moved to Pittsburgh and is getting involved with the community there!</>
+      <p>Jennifer is the founder of <a href="http://boston.pyladies.com/" target="_blank" alt="PyLadies Boston">PyLadies Boston</a>, an organization dedicated to bringing more women into the open-source community in Boston. She currently works as a software developer at Akamai, but her passion is teaching women how to code. She recently moved to Pittsburgh and is getting involved with the community there!</p>
     </div>
   </div>
   <div class="col-sm-12 col-md-3">

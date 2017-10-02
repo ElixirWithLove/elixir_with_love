@@ -38,7 +38,7 @@
 
 <div class="container-fluid">
   <%= render(ElixirWithLove.PageView, "_registration.html", conn: @conn) %>
-  <%= render(ElixirWithLove.PageView, "_keynote.html", conn: @conn) %>
+  <%= render(ElixirWithLove.PageView, "_speakers.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_venue.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_sponsor_footer.html", conn: @conn) %>
   <%= render(ElixirWithLove.PageView, "_about.html", conn: @conn, organizers: @organizers) %>
