@@ -12,7 +12,7 @@
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JamesFish.jpeg") %>" alt="James Fish">
             <figcaption class="speaker-1">
               <h3>James Fish</h3><br/>
-              <p>@fishcakez</p>
+              <p>github.com/fishcakez</p>
             </figcaption>
             <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
             <div class="speaker-deco speaker-overlay rounded-circle"></div>
@@ -123,7 +123,7 @@
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JenniferKonikowski.jpg") %>" alt="Jennifer Konikowski">
             <figcaption>
               <h3>Jennifer Konikowski</h3><br/>
-              <p>@jenkoni</p>
+              <p>github.com/jenkoni</p>
             </figcaption>
             <div class="speaker-deco speaker-shine rounded-circle"></div>
             <div class="speaker-deco speaker-overlay rounded-circle"></div>
