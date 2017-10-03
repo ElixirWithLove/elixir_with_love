@@ -1,4 +1,4 @@
-<div id="speakers" class="row speaker-row-1 justify-content-center">
+<div id="speakers" class="row speaker-row justify-content-center">
   <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
@@ -15,7 +15,7 @@
               <p>@fishcakez</p>
             </figcaption>
             <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
-            <div class="speaker-deco speaker-overlay-1 rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
         <br/>
@@ -27,16 +27,18 @@
       <strong><a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a> 1.6 is coming at the start of 2018!</strong> This talk will showcase new features, and a few old, that help meet our three main design goals: productivity, maintainability, and reliability. Expect a few tips and tricks along the way for Elixirists of any level of expertise.
     </p>
     <div class="speaker-bio">
-      <p>James is a member of the <a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a> and <a href="https://github.com/elixir-ecto/ecto" target="_blank" alt="Ecto GH Repo">Ecto</a> core teams. He enjoys all BEAM languages and contributes to many open source projects. When not answering questions in the <a href="http://elixir.community/talk" alt="Elixir IRC Community">Elixir IRC channel</a> he enjoys playing soccer and baking cakes.</p>
+      <p>
+        James is an API engineer at Pinterest, where he works on the service framework. He is a member of the <a href="https://github.com/elixir-lang/elixir" target="_blank" alt="ElixirLang GH Repo">Elixir</a> and <a href="https://github.com/elixir-ecto/ecto" target="_blank" alt="Ecto GH Repo">Ecto</a> core teams and a prolific open source contributor (<a href="https://github.com/fishcakez" target="_blank">fishcakez on github</a>). When not answering questions in Elixir's <a href="http://elixir.community/talk" alt="Elixir IRC Community">Elixir IRC channel</a> channel he enjoys baking, 5-a-side soccer and pinning photos of poodle crossbreeds.</p>
     </div>
   </div>
 </div>
 
-<div id="speaker" class="row speaker-row-2 justify-content-center">
+<div id="speaker" class="row speaker-row speaker-alt-row justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-      We talk about Elixir as powerful language. What about the power of community? I co-founded <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a>, a volunteer-run organization that has free, weekend-long workshops in Elixir and Phoenix for underrepresented populations in tech. This talk explores what worked, what failed, and why community is important.
+      We talk about Elixir as powerful language. What about the power of community? I co-founded <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a>, a volunteer-run organization that has free, weekend-long workshops in Elixir and Phoenix for underrepresented populations in tech. This talk explores what worked, what failed, and why community is important. How do we create a diverse Elixir community that is welcoming, inclusive, and sustainable?
     </p>
+
     <div class="speaker-bio">
       <p>Anna Neyzberg is a San Francisco native who has done a lot of work in the Ruby community in SF and currently sits on the board of <a href="http://www.railsbridge.org/" target="_blank" alt="RailsBridge">RailsBridge</a>.
         She has taken this community organizing experience and co-founded <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a> last year. By day she works as a developer at Carbon Five. When not in front of a keyboard or at an <a href="http://elixirbridge.org/" target="_blank" alt="ElixirBridge">ElixirBridge</a> event, she is trying to get better at climbing rocks.</p>
@@ -53,12 +55,12 @@
         <a href="https://twitter.com/aneyzb" target="_blank">
           <figure class="speaker-figure">
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/AnnaNeyzberg.jpg") %>" alt="Anna Neyzberg">
-            <figcaption class="speaker-2">
+            <figcaption>
               <h3>Anna Neyzberg</h3><br/>
               <p>@aneyzb</p>
             </figcaption>
             <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
-            <div class="speaker-deco speaker-overlay-1 rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
         <br/>
@@ -67,23 +69,23 @@
   </div>
 </div>
 
-<div class="row speaker-row-1 justify-content-center">
+<div class="row speaker-row justify-content-center">
   <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
-        <h3>Property-based testing is a mindset</h3>
+        <h3>Property-based Testing is a Mindset</h3>
         <hr/>
       </div>
       <div class="col-sm-3 col-md-8 col-lg-">
         <a href="https://twitter.com/whatyouhide" target="_blank">
           <figure class="speaker-figure">
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/AndreaLeopardi.jpeg") %>" alt="Andrea Leopardi">
-            <figcaption class="speaker-2">
+            <figcaption>
               <h3>Andrea Leopardi</h3><br/>
               <p>@whatyouhide</p>
             </figcaption>
-            <div class="speaker-deco speaker-shine-2 rounded-circle"></div>
-            <div class="speaker-deco speaker-overlay-2 rounded-circle"></div>
+            <div class="speaker-deco speaker-shine rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
         <br/>
@@ -100,7 +102,7 @@
   </div>
 </div>
 
-<div class="row speaker-row-2 justify-content-center">
+<div class="row speaker-row speaker-alt-row justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
         With Elixir and <a href="phoenixframework.org" target="_blank" alt="Phoenix Framework">Phoenix</a>, you can build robust and performant back-end services. With Elixir and <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a>, you can extend those back-end services into your physical space, whether it be sensors in a warehouse or Internet-connected devices spread across the globe. With <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a>, you can create rich and maintainable user interfaces to your system without having to invest in dedicated JavaScript expertise. Your small team of Elixir developers can handle everything from sensors and devices to front-end code running in your browser, with minimal context-switching overhead.
@@ -119,12 +121,12 @@
         <a href="https://twitter.com/ferggo" target="_blank">
           <figure class="speaker-figure">
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/GregMefford.jpg") %>" alt="Greg Mefford">
-            <figcaption class="speaker-2">
+            <figcaption>
               <h3>Greg Mefford</h3><br/>
               <p>@ferggo</p>
             </figcaption>
             <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
-            <div class="speaker-deco speaker-overlay-1 rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
         <br/>
@@ -133,7 +135,7 @@
   </div>
 </div>
 
-<div id="speaker" class="row speaker-row-1 justify-content-center">
+<div id="speaker" class="row speaker-row justify-content-center">
   <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
@@ -148,7 +150,7 @@
               <p>@mojo_cathy</p>
             </figcaption>
             <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
-            <div class="speaker-deco speaker-overlay-1 rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
         <br/>
@@ -165,7 +167,7 @@
   </div>
 </div>
 
-<div class="row speaker-row-2 justify-content-center">
+<div class="row speaker-row speaker-alt-row justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
         How do you foster <strong>new</strong> developers within the community? I will tell you how I grew PyLadies Boston from zero to a thousand by focusing primarily on beginners.
@@ -184,16 +186,49 @@
         <a href="https://github.com/jenkoni" target="_blank">
           <figure class="speaker-figure">
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JenniferKonikowski.jpg") %>" alt="Jennifer Konikowski">
-            <figcaption class="speaker-2">
-              <h3>Jennfier Konikowski</h3><br/>
+            <figcaption>
+              <h3>Jennifer Konikowski</h3><br/>
               <p>@jenkoni</p>
             </figcaption>
-            <div class="speaker-deco speaker-shine-2 rounded-circle"></div>
-            <div class="speaker-deco speaker-overlay-2 rounded-circle"></div>
+            <div class="speaker-deco speaker-shine rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
         <br/>
       </div>
+    </div>
+  </div>
+</div>
+
+<div class="row speaker-row justify-content-center">
+  <div class="col-sm-12 col-md-3">
+    <div class="row">
+      <div class="col-sm-6 col-md-12">
+        <h3>You’re Just Not My Type: Using Dialyzer to bring type checking to your Elixir code</h3>
+        <hr/>
+      </div>
+      <div class="col-sm-3 col-md-8 col-lg-">
+        <a href="https://twitter.com/emmatcu" target="_blank">
+          <figure class="speaker-figure">
+            <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/EmmaCunningham.png") %>" alt="Emma Cunningham">
+            <figcaption>
+              <h3>Emma Cunningham</h3><br/>
+              <p>@emmatcu</p>
+            </figcaption>
+            <div class="speaker-deco speaker-shine rounded-circle"></div>
+            <div class="speaker-deco speaker-overlay rounded-circle"></div>
+          </figure>
+        </a>
+        <br/>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-7">
+    <p class="speaker-abstract text-center">
+        Recently, languages like Elm and TypeScript have revitalized an interest in type checking amongst web developers. Come learn what all the hype around types is about and how your Elixir codebase can benefit from type specs and type checking.
+    </p>
+    <div class="speaker-bio">
+      <p>Emma is a Senior Software Engineer at Second Spectrum, where she gets to solve all kinds of fun problems around how to build compelling data visualization and analytics apps for clients like the NBA and the LA Clippers. She is actively involved in various STEAM education equity initiatives in low-income communities across Los Angeles, including co-organizing YouthBuild Charter School of California’s CODEChella, serving on the Advisory Board at the Critical Design and Gaming School, teaching robotics and programming at Heart of Los Angeles, and co-directing Code Hawk Camp, an inclusive and free summer computer science camp for students in South LA.</p>
     </div>
   </div>
 </div>

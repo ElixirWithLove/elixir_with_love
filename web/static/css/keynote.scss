@@ -1,16 +1,8 @@
 @import "variables";
 
-.speaker-row-1 {
-  background-color: darken(#1E1F41, 5%);
-
-}
-
-.speaker-row-2 {
-  background-color: #1E1F41;
-}
-
-.speaker-row-1 {
+.speaker-row {
   padding: 3em 0;
+	background-color: #16192F;
 	color: $brand-info;
 
 	a {
@@ -20,12 +12,12 @@
 
 	p {
 		font-family: $font-family-sans-serif;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	.speaker-abstract {
 		font-family: $font-family-sans-serif;
-		background-color: lighten(#3D2542, 5%);
+		background-color: darken($brand-primary, 25%);
 		padding: 1.5em;
 		box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
 		border-radius: 2px;
@@ -37,55 +29,11 @@
 
   h3 {
     font-family: $font-family-serif;
-    text-transform: capitalize;
-    font-size: 2.2rem;
+    text-transform: none;
+    font-size: 1.8em;
+
     @media (min-width: 768px) and (max-width: 780px) {
-      font-size: 1.4rem;
-    }
-
-    @media (min-width: 781px) and (max-width: 1100px) {
-      font-size: 2rem;
-    }
-  }
-
-  h4 {
-    font-family: $font-family-serif;
-  }
-}
-
-
-.speaker-row-2 {
-  padding: 3em 0;
-	color: $brand-info;
-
-	a {
-		color: lighten($brand-primary, 10%);
-		font-weight: 900;
-	}
-
-	p {
-		font-family: $font-family-sans-serif;
-		font-size: 1em;
-	}
-
-	.speaker-abstract {
-		font-family: $font-family-sans-serif;
-    background-color: darken($brand-primary, 25%);
-		padding: 1.5em;
-		box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
-		border-radius: 2px;
-
-    strong {
-      color: white;
-    }
-	}
-
-  h3 {
-    font-family: $font-family-serif;
-    text-transform: capitalize;
-    font-size: 2rem;
-    @media (min-width: 768px) and (max-width: 780px) {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
 
     @media (min-width: 781px) and (max-width: 1100px) {
@@ -116,119 +64,6 @@
     }
 	}
 
-	.speaker-shine-1 {
-		background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.75) 50%, transparent 100%);
-		-webkit-transition: background-image 1s ease-in-out;
-		transition: background-image 1s ease-in-out;
-	}
-
-	.speaker-overlay-1 {
-		background-image: linear-gradient(45deg, rgba(8, 32, 101, 0.5) 40%, RGBA(8, 32, 101, 0.5), rgba(8, 32, 101, 0.4));
-		-webkit-transition: background-image 1s ease-in-out;
-		transition: background-image 1s ease-in-out;
-	}
-
-  .speaker-shine-2 {
-    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.75) 50%, transparent 100%);
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
-  }
-
-  .speaker-overlay-2 {
-    background-image: linear-gradient(45deg, rgba(189, 112, 208, 0.5) 50%, RGBA(115, 118, 195, 0.5), rgba(162, 118, 218, 0.4));
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
-  }
-
-	&:hover {
-		img, .speaker-shine, .speaker-overlay {
-				filter: none;
-				background-image: linear-gradient(45deg, rgba(189, 112, 208, 0.2) 50%, RGBA(115, 118, 195, 0.2), rgba(162, 118, 218, 0.2));
-		}
-	}
-
-	figcaption.speaker-1 {
-		position: absolute;
-		margin-top: -5%;
-		width: 100%;
-		color: $brand-info;
-
-		h3 {
-			font-size: 1.3em;
-			margin-bottom: 0.5em;
-			text-transform: capitalize;
-		}
-
-		h3, p {
-			font-family: $font-family-serif;
-			padding: 0 1em;
-      background-color: lighten(#3D2542, 20%);
-			display: inline-block;
-		}
-	}
-
-  figcaption.speaker-2 {
-		position: absolute;
-		margin-top: -5%;
-		width: 100%;
-		color: $brand-info;
-
-		h3 {
-			font-size: 1.3em;
-			margin-bottom: 0.5em;
-			text-transform: capitalize;
-		}
-
-		h3, p {
-			font-family: $font-family-serif;
-			padding: 0 1em;
-      background-color: darken($brand-primary, 5%);
-			display: inline-block;
-		}
-	}
-
-	.speaker-deco {
-		position: absolute;
-	  top: 0;
-	  left: 0;
-	  width: 100%;
-	  height: 100%;
-	  overflow: hidden;
-		stroke: #9255ae;
-		stroke-width: 6px;
-		mix-blend-mode: color;
-	}
-}
-
-.speaker-bio {
-  p {
-    font-family: $font-family-serif;
-  	font-size: 1em;
-  }
-
-  strong {
-    color: $white;
-  }
-}
-
-.speaker-figure-2 {
-	position: relative;
-  width: 100%;
-  display: block;
-
-	img {
-		margin: 0;
-    width: 100%;
-    display: block;
-		filter: grayscale(100%);
-		-webkit-transition: filter 1s ease-in-out;
-		transition: filter 1s ease-in-out;
-
-    @media (max-width: 580px) {
-      display: none;
-    }
-	}
-
 	.speaker-shine {
 		background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.5) 0%, rgba(255, 255, 255, 0.75) 50%, transparent 100%);
 		-webkit-transition: background-image 1s ease-in-out;
@@ -236,9 +71,9 @@
 	}
 
 	.speaker-overlay {
-    background-image: linear-gradient(45deg, rgba(189, 112, 208, 0.5) 50%, RGBA(115, 118, 195, 0.5), rgba(162, 118, 218, 0.4));
-    -webkit-transition: background-image 1s ease-in-out;
-    transition: background-image 1s ease-in-out;
+		background-image: linear-gradient(45deg, rgba(189, 112, 208, 0.5) 50%, RGBA(115, 118, 195, 0.5), rgba(162, 118, 218, 0.4));
+		-webkit-transition: background-image 1s ease-in-out;
+		transition: background-image 1s ease-in-out;
 	}
 
 	&:hover {
@@ -250,7 +85,7 @@
 
 	figcaption {
 		position: absolute;
-		margin-top: -5%;
+		margin-top: -10%;
 		width: 100%;
 		color: $brand-info;
 
@@ -263,7 +98,7 @@
 		h3, p {
 			font-family: $font-family-serif;
 			padding: 0 1em;
-      background-color: darken($brand-primary, 5%);
+			background-color: darken($brand-primary, 5%);
 			display: inline-block;
 		}
 	}
@@ -284,7 +119,7 @@
 .speaker-bio {
   p {
     font-family: $font-family-serif;
-  	font-size: 1em;
+  	font-size: 0.85em;
   }
 
   strong {
@@ -292,10 +127,6 @@
   }
 }
 
-.speakers-row {
-  background-color: #2F2F68;
-
-  h3 {
-    font-size: 1.8em;
-  }
+.speaker-alt-row {
+  background-color: darken($brand-primary, 40%);
 }
