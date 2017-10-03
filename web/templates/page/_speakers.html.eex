@@ -105,27 +105,27 @@
 <div class="row speaker-row speaker-alt-row justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-        With Elixir and <a href="phoenixframework.org" target="_blank" alt="Phoenix Framework">Phoenix</a>, you can build robust and performant back-end services. With Elixir and <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a>, you can extend those back-end services into your physical space, whether it be sensors in a warehouse or Internet-connected devices spread across the globe. With <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a>, you can create rich and maintainable user interfaces to your system without having to invest in dedicated JavaScript expertise. Your small team of Elixir developers can handle everything from sensors and devices to front-end code running in your browser, with minimal context-switching overhead.
+        How do you foster <strong>new</strong> developers within the community? I will tell you how I grew PyLadies Boston from zero to a thousand by focusing primarily on beginners.
     </p>
     <div class="speaker-bio">
-      <p>Greg is a member of the <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a> core team and loves to help new people join the Nerves community by writing documentation, answering questions in Slack, and giving presentations. He’s also quickly becoming an <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a> evangelist.</p>
+      <p>Jennifer is the founder of <a href="http://boston.pyladies.com/" target="_blank" alt="PyLadies Boston">PyLadies Boston</a>, an organization dedicated to bringing more women into the open-source community in Boston. She currently works as a software developer at Akamai, but her passion is teaching women how to code. She recently moved to Pittsburgh and is getting involved with the community there!</p>
     </div>
   </div>
-  <div class="col-sm-12 col-md-4">
+  <div class="col-sm-12 col-md-3">
     <div class="row">
       <div class="col-sm-6 col-md-12">
-        <h3>Functional Full-Stack Systems with Elixir, Phoenix, Nerves, and Elm</h3>
+        <h3>Building a Community For Beginners</h3>
         <hr/>
       </div>
       <div class="col-sm-3 col-md-8 col-lg-">
-        <a href="https://twitter.com/ferggo" target="_blank">
+        <a href="https://github.com/jenkoni" target="_blank">
           <figure class="speaker-figure">
-            <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/GregMefford.jpg") %>" alt="Greg Mefford">
+            <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JenniferKonikowski.jpg") %>" alt="Jennifer Konikowski">
             <figcaption>
-              <h3>Greg Mefford</h3><br/>
-              <p>@ferggo</p>
+              <h3>Jennifer Konikowski</h3><br/>
+              <p>@jenkoni</p>
             </figcaption>
-            <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
+            <div class="speaker-deco speaker-shine rounded-circle"></div>
             <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
@@ -170,27 +170,27 @@
 <div class="row speaker-row speaker-alt-row justify-content-center">
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-        How do you foster <strong>new</strong> developers within the community? I will tell you how I grew PyLadies Boston from zero to a thousand by focusing primarily on beginners.
+        With Elixir and <a href="phoenixframework.org" target="_blank" alt="Phoenix Framework">Phoenix</a>, you can build robust and performant back-end services. With Elixir and <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a>, you can extend those back-end services into your physical space, whether it be sensors in a warehouse or Internet-connected devices spread across the globe. With <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a>, you can create rich and maintainable user interfaces to your system without having to invest in dedicated JavaScript expertise. Your small team of Elixir developers can handle everything from sensors and devices to front-end code running in your browser, with minimal context-switching overhead.
     </p>
     <div class="speaker-bio">
-      <p>Jennifer is the founder of <a href="http://boston.pyladies.com/" target="_blank" alt="PyLadies Boston">PyLadies Boston</a>, an organization dedicated to bringing more women into the open-source community in Boston. She currently works as a software developer at Akamai, but her passion is teaching women how to code. She recently moved to Pittsburgh and is getting involved with the community there!</p>
+      <p>Greg is a member of the <a href="http://nerves-project.org/" target="_blank" alt="Nerves Project">Nerves</a> core team and loves to help new people join the Nerves community by writing documentation, answering questions in Slack, and giving presentations. He’s also quickly becoming an <a href="http://elm-lang.org/" target="_blank" alt="Elm Language">Elm</a> evangelist.</p>
     </div>
   </div>
-  <div class="col-sm-12 col-md-3">
+  <div class="col-sm-12 col-md-4">
     <div class="row">
       <div class="col-sm-6 col-md-12">
-        <h3>Building a Community For Beginners</h3>
+        <h3>Functional Full-Stack Systems with Elixir, Phoenix, Nerves, and Elm</h3>
         <hr/>
       </div>
       <div class="col-sm-3 col-md-8 col-lg-">
-        <a href="https://github.com/jenkoni" target="_blank">
+        <a href="https://twitter.com/ferggo" target="_blank">
           <figure class="speaker-figure">
-            <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JenniferKonikowski.jpg") %>" alt="Jennifer Konikowski">
+            <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/GregMefford.jpg") %>" alt="Greg Mefford">
             <figcaption>
-              <h3>Jennifer Konikowski</h3><br/>
-              <p>@jenkoni</p>
+              <h3>Greg Mefford</h3><br/>
+              <p>@ferggo</p>
             </figcaption>
-            <div class="speaker-deco speaker-shine rounded-circle"></div>
+            <div class="speaker-deco speaker-shine-1 rounded-circle"></div>
             <div class="speaker-deco speaker-overlay rounded-circle"></div>
           </figure>
         </a>
