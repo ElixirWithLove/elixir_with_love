@@ -291,7 +291,7 @@
   </div>
   <div class="col-sm-12 col-md-7">
     <p class="speaker-abstract text-center">
-      Erlang is full of great ideas but for decades no one used it. Now with Elixir, the ideas of Erlang are seeing widespread adoption for the first time.
+      Erlang is full of great ideas, but for decades no one used it. Now with Elixir, the ideas of Erlang are seeing widespread adoption for the first time.
 
       What happened? What is Elixir doing that Erlang didn’t? Why are so many great tech ideas accessible to only a few? And how can we change this?
     </p>
@@ -329,7 +329,7 @@
       Elixir deployment is hard. In many ways, the rules of Elixir deployment run counter to many of the best practices of modern DevOps. This talk will share how Motel currently ships, tests and reviews multiple Phoenix products every day with GitLab, Kubernetes, and distillery releases.
     </p>
     <div class="speaker-bio">
-      <p>Scott is a polygot engineer who writes Elixir as the lead engineer at Motel. At Motel, Scott crafts Elixir and mentors other engineers. He also holds the record for most countries traveled to, most miles ran, and most slack emojis made of his face.</p>
+      <p>Scott is a polyglot engineer who writes Elixir as the lead engineer at Motel. At Motel, Scott crafts Elixir and mentors other engineers. He also holds the record for most countries traveled to, most miles ran, and most slack emojis made of his face.</p>
     </div>
   </div>
   <div class="col-sm-12 col-md-3 hidden-xs-down">
