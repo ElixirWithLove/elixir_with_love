@@ -49,4 +49,24 @@ $(function(){
       });
     } // End if
    });
+
+   $(window).scroll(function () {
+      $('.speaker-figure').each(function () {
+         if (isScrolledIntoView(this) === true) {
+             $(this).addClass('speaker-visible')
+         } else {
+            $(this).removeClass('speaker-visible')
+         }
+      });
+   });
 });
+
+function isScrolledIntoView(elem) {
+  var docViewTop = $(window).scrollTop();
+  var docViewBottom = docViewTop + $(window).height();
+
+  var elemTop = $(elem).offset().top;
+  var elemBottom = elemTop + $(elem).height();
+
+  return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}

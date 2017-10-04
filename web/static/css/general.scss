@@ -400,6 +400,11 @@ a.btn-tickets {
   height: 25%;
   margin-bottom: -12%;
   margin-left: 8%;
+
+  @media (max-width: 580px) {
+    width: 80%;
+    margin-bottom: -35%;
+  }
 }
 
 #venue {
@@ -508,7 +513,7 @@ a {
   }
 
   .single-sponsor {
-    margin-top: 0.5em;
+    margin: 1em;
   }
 
   .sponsor-call {
@@ -538,4 +543,15 @@ a {
 
 a.biltmore-link {
   color: #f77fa6;
+}
+
+a.btn.btn-primary.nav-tickets {
+  background-color: #723570;
+  margin-bottom: 0;
+
+  &:active, &:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
 }

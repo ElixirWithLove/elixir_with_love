@@ -23,7 +23,7 @@
     and in the larger open source community.
     </p>
     <p>In addition, a limited number of free <strong>scholarship tickets</strong> for those facing economic, social, or other hardships
-      will be made available <%= link("sponsorship support", to: "/sponsorships", target: "_blank") %> and <a href="https://ti.to/elixir-with-love/2017/" target="_blank">attendee contributions:</a>.</p>
+      will be made available <%= link("sponsorship support", to: "/sponsorships", target: "_blank") %> and <a href="https://ti.to/elixir-with-love/2017/" target="_blank">attendee contributions.</a></p>
     <p>
       <a href="https://goo.gl/forms/hvkaQ08qrD7tsSX22" target="_blank">Apply today</a> for a scholarship ticket or sign up to <a href="http://eepurl.com/cXS6GP" target="_blank">receive email updates</a> on their availability. The first round of tickets will be selected by <strong>Oct. 7th, 2017.</strong>
     </p>
