@@ -188,12 +188,12 @@
         <hr/>
       </div>
       <div class="col-sm-3 col-md-8 col-lg-7">
-        <a href="https://github.com/jenkoni" target="_blank">
+        <a href="https://github.com/jmkoni" target="_blank">
           <figure class="speaker-figure">
             <img class="speaker-pic rounded-circle" src="<%= static_path(@conn, "/images/speakers/JenniferKonikowski.jpg") %>" alt="Jennifer Konikowski">
             <figcaption>
               <h3>Jennifer Konikowski</h3><br/>
-              <p>github.com/jenkoni</p>
+              <p>github.com/jmkoni</p>
             </figcaption>
             <div class="speaker-deco speaker-shine rounded-circle"></div>
             <div class="speaker-deco speaker-overlay rounded-circle"></div>
