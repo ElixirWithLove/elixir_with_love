@@ -1,5 +1,15 @@
 <div id="sponsors" class="row sponsor-page justify-content-center">
   <div class="col-md-12">
+    <div class="row justify-content-center">
+      <div class="col-md-8 sponsor-call text-center">
+        <h2><strong>Help</strong> build an inclusive language community &amp; an unforgettable conference experience.
+          Sponsor today!<h2>
+        <p>Look through our <%= link("sponsorship prospectus (PDF)", to: "/sponsorships", target: "_blank") %> and
+          <a href="mailto:sponsorships@elixir-with-love.com">email</a> or <a href="https://twitter.com/elixir_w_love">DM us on Twitter</a> to get started!
+        </p>
+      </div>
+    </div>
+    <br/>
     <div class="row">
       <div class="col-md-12 text-center">
         <h1>Sponsors</h1>
@@ -27,15 +37,6 @@
       <div class="col-sm-6">
         <p>
           Vermonster is Boston-based software development and design shop. We are sought after for the quality of our processes, our products, and our ethos. We have a great appetite to understand worthwhile problems and use empathy and empiricism to solve them. We invest time, money, and thought in staying current with technology and trends in design. We build extraordinary software with people for people.
-        </p>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-8 sponsor-call text-center">
-        <h2><strong>Help</strong> build an inclusive language community &amp; an unforgettable conference experience.
-          Sponsor today!<h2>
-        <p>Look through our <%= link("sponsorship prospectus (PDF)", to: "/sponsorships", target: "_blank") %> and
-          <a href="mailto:sponsorships@elixir-with-love.com">email</a> or <a href="https://twitter.com/elixir_w_love">DM us on Twitter</a> to get started!
         </p>
       </div>
     </div>
