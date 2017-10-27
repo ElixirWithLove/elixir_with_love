@@ -1,0 +1,89 @@
+<div id="schedule" class="row justify-content-center schedule-row align-items-center">
+  <div class="col-md-10 col-md-offset-1">
+    <h3>Schedule</h3>
+    <h4>Friday, November 10th, 2017</h4>
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th scope="row">8:00AM</th>
+        <td><i>Registration Open / Continental Breakfast</i> &nbsp;🥐</td>
+      </tr>
+      <tr>
+        <th scope="row">9:00AM</th>
+        <td><i>Introductory Remarks</i></td>
+      </tr>
+      <tr>
+        <th scope="row">9:10AM</th>
+        <td><h5><strong>Cultural Keynote</strong>: How do we shape community?</h5></td>
+      </tr>
+      <tr>
+        <th scope="row">9:50AM</th>
+        <td>Managing Tables with Elixir and OTP</td>
+      </tr>
+      <tr>
+        <th scope="row">10:20AM</th>
+        <td><i>Coffee &amp; Mingle Break</i>  &nbsp;☕️</td>
+      </tr>
+      <tr>
+        <th scope="row">10:40AM</th>
+        <td>Phoenix and React: A Ticket to Fly</td>
+      </tr>
+      <tr>
+        <th scope="row">11:10AM</th>
+        <td>Idea Scaling</td>
+      </tr>
+      <tr>
+        <th scope="row">11:50AM</th>
+        <td><i>Alignment</i></td>
+      </tr>
+      <tr>
+        <th scope="row">12:00AM</th>
+        <td>Lunch and "Framework for Inclusivity" Panel &nbsp;</td>
+      </tr>
+      <tr>
+        <th scope="row">1:00PM</th>
+        <td>“You’re just not my type”: Using Dialyzer to bring type checking to your Elixir code</td>
+      </tr>
+      <tr>
+        <th scope="row">1:30PM</th>
+        <td>Property-based testing is a mindset</td>
+      </tr>
+      <tr>
+        <th scope="row">2:10PM</th>
+        <td>Deployment without Angst: Patterns for modern Elixir DevOps</td>
+      </tr>
+      <tr>
+        <th scope="row">2:30PM</th>
+        <td><i>Fun time - Book raffle and open lightning talk signup</i> 🎉</td>
+      </tr>
+      <tr>
+        <th scope="row">3:10PM</th>
+        <td>Functional Full-Stack Systems with Elixir, Phoenix, Nerves, and Elm</td>
+      </tr>
+      <tr>
+        <th scope="row">3:40PM</th>
+        <td>Building a Community for Beginners</td>
+      </tr>
+      <tr>
+        <th scope="row">4:20PM</th>
+        <td><h5><strong>Technical Keynote</strong>: Elixir 1.6</h5></td>
+      </tr>
+      <tr>
+        <th scope="row">5:00PM</th>
+        <td><i>Closing Remarks</i></td>
+      </tr>
+      <tr>
+        <th scope="row">5:10PM</th>
+        <td>Open Lightning Talks ⚡️</td>
+      </tr>
+    </table>
+    <h4>Saturday, November 11th, 2017</h4>
+    <table class="table table-striped table-bordered">
+      <tr>
+        <th scope="row">9:00AM - 5:00PM</th>
+        <td>Stick around for a free ElixirBridge workshop hosted by Anna Neyzberg: <strong><a href="https://www.bridgetroll.org/events/373" target="_blank">Intro to Elixir and Phoenix</a>,
+</strong> sponsored by MojoTech and CarbonFive. <strong>No conference ticket necessary!</strong></td>
+        <td><a href="https://www.bridgetroll.org/events/373" target="_blank" class="btn btn-primary">RSVP Today!</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
