@@ -132,8 +132,33 @@ p {
   margin-top: 2em;
 }
 
-.landing-jumbo, .cfp-row, .registration-row, .sponsor-row {
+.landing-jumbo, .cfp-row, .registration-row, .sponsor-row, .schedule-row {
   min-height: 100vh;
+}
+
+.schedule-row {
+  background-color: #373980;
+
+  h3 {
+    color: white;
+  }
+
+  padding: 3em 0;
+    font-family: $font-family-sans-serif;
+
+  table {
+    margin-top: 1em;
+    background-color: #2A2B5C;
+    color: white;
+
+    th, td {
+      border: 1px solid #383C7E;
+    }
+  }
+
+  th {
+    font-family: $font-family-sans-serif;
+  }
 }
 
 .cfp-row {
@@ -415,8 +440,6 @@ a.btn-tickets {
   background-size: cover;
 
   .venue-description {
-    padding-left: 3em;
-
     h4 {
       font-family: $font-family-serif;
       font-size: 1em;
