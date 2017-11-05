@@ -76,14 +76,5 @@
         <td>Open Lightning Talks ⚡️</td>
       </tr>
     </table>
-    <h4>Saturday, November 11th, 2017</h4>
-    <table class="table table-striped table-bordered">
-      <tr>
-        <th scope="row">9:00AM - 5:00PM</th>
-        <td>Stick around for a free ElixirBridge workshop hosted by Anna Neyzberg: <strong><a href="https://www.bridgetroll.org/events/373" target="_blank">Intro to Elixir and Phoenix</a>,
-</strong> sponsored by MojoTech and CarbonFive. <strong>No conference ticket necessary!</strong></td>
-        <td><a href="https://www.bridgetroll.org/events/373" target="_blank" class="btn btn-primary">RSVP Today!</a></td>
-      </tr>
-    </table>
   </div>
 </div>
