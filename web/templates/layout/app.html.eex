@@ -28,7 +28,7 @@
           <%= link("Conduct", to: "/conduct", class: "nav-link nav-link-normal") %>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-normal" href="/#registration">Tickets</a>
+          <a class="nav-link nav-link-normal" href="/#registration">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link nav-link-padded" href="/#speakers">Speakers</a>
@@ -44,9 +44,9 @@
         </li>
       </ul>
       <ul class="navbar-nav">
-        <li class=nav-item>
+        <!-- <li class=nav-item>
           <a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-primary nav-tickets">Get Tickets!</a>
-        </li>
+        </li> -->
         <li class="nav-item nav-email">
           <a class="nav-link" href="mailto:info@elixir-with-love.com" target="_blank">
             <img class="droplet-icon" src="<%= static_path(@conn, "/images/iconset/entypo-droplet-white.svg") %>" alt="Droplet icon">

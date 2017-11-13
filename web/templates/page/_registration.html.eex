@@ -7,7 +7,7 @@
 
     <p>Breakfast, lunch, coffee, and snacks will be provided throughout the day for all attendees. Extra activities like lightning talks and a book raffle are planned.</p>
     <p>
-      <a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-primary">Reserve Your Ticket Now</a>
+      <!-- <a href="https://ti.to/elixir-with-love/2017/" target="_blank" class="btn btn-primary">Reserve Your Ticket Now</a> -->
       <%= link("Sponsor Elixir with Love", to: "/sponsorships", class: "btn btn-secondary", target: "_blank") %>
     </p>
   </div>
@@ -25,9 +25,9 @@
     <h4>Scholarship Tickets</h4>
     <p>In addition to the diversity ticket, a limited number of free <strong>scholarship tickets</strong> for those facing economic, social, or other hardships
       will be made available depending on <%= link("sponsorship support", to: "/sponsorships", target: "_blank") %> and <a href="https://ti.to/elixir-with-love/2017/" target="_blank">attendee contributions.</a></p>
-    <p>
+    <!-- <p>
       <a href="https://goo.gl/forms/hvkaQ08qrD7tsSX22" target="_blank">Apply today</a> for a scholarship ticket or sign up to <a href="http://eepurl.com/cXS6GP" target="_blank">receive email updates</a> on their availability.</strong>
-    </p>
+    </p> -->
   </div>
   <img src="<%= static_path(@conn, "/images/speaker-lineup.png") %>" class="speaker-lineup" alt="Speaker Lineup Header">
 </div>
